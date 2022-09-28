@@ -7,6 +7,13 @@ import App from './App';
 import { HelloNEAR } from './near-interface';
 import { Wallet } from './near-wallet';
 
+// The Cloud Functions for Firebase SDK to create Cloud Functions and set up triggers.
+const functions = require('firebase-functions');
+
+// The Firebase Admin SDK to access Firestore.
+const admin = require('firebase-admin');
+admin.initializeApp();
+
 // When creating the wallet you can optionally ask to create an access key
 // Having the key enables to call non-payable methods without interrupting the user to sign
 const wallet = new Wallet({ createAccessKeyFor: process.env.CONTRACT_NAME })
