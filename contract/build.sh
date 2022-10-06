@@ -2,4 +2,6 @@
 
 echo ">> Building contract"
 
-near-sdk-js build src/contract.ts build/hello_near.wasm
+near-sdk-js build src/nft.ts build/nft.wasm
+near-sdk-js build src/GameMaster.ts build/GameMaster.wasm
+# near-sdk-js build src/GoldToken.ts build/GoldToken.wasm

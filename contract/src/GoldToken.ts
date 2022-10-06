@@ -22,7 +22,13 @@ export class GoldToken {
 	init({ prefix, totalSupply }) {
 		this.accounts = new LookupMap(prefix);
 		this.totalSupply = BigInt(totalSupply);
+
+		// TODO: Need to set the owner of the token totalSupply to
+		// GameMaster Contract, as it's the only account that can 
+		// distribute tokens.
 		this.accounts.set(near.signerAccountId(), this.totalSupply);
+
+		// NOTE: Beyond hackathon scope. We will do this afterwards.
 		// In a real world Fungible Token contract, storage management is required to denfense drain-storage attack
 	}
 
@@ -33,6 +39,7 @@ export class GoldToken {
 		this.totalSupply += BigInt(amount);
 	}
 
+	// Burns tokens... I think...
 	internalWithdraw({ accountId, amount }) {
 		let balance = this.accounts.get(accountId, { defaultValue: 0n });
 		let newBalance = balance - BigInt(amount);
@@ -43,6 +50,7 @@ export class GoldToken {
 		this.totalSupply = newSupply;
 	}
 
+	// Mints tokens.... i think...
 	internalTransfer({ senderId, receiverId, amount, memo: _ }) {
 		assert(senderId != receiverId, "Sender and receiver should be different");
 		let amountInt = BigInt(amount);
