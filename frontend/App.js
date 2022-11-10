@@ -1,71 +1,118 @@
 import 'regenerator-runtime/runtime';
 import React from 'react';
-
 import './assets/global.css';
+import image from './assets/firewatch.jpeg'
 
-import { SignInPrompt, SignOutButton } from './ui-components';
+import { 
+  Container,
+  Row,
+  Col,
+} from 'react-bootstrap'
 
+import NavBar from './NavBar';
 
 export default function App({ isSignedIn, helloNEAR, wallet }) {
   const [valueFromBlockchain, setValueFromBlockchain] = React.useState();
+  const [nftData, setNftData] = React.useState()
 
   const [uiPleaseWait, setUiPleaseWait] = React.useState(true);
 
-  console.log('wallet info', helloNEAR.wallet.accountId)
-
-  // Get blockchian state once on component load
-  React.useEffect(() => {
-    helloNEAR.getGreeting()
-      .then(setValueFromBlockchain)
-      .catch(alert)
-      .finally(() => {
-        setUiPleaseWait(false);
-      });
-  }, []);
+  console.log('wallet info', wallet)
+  console.log('nft data: ', nftData)
 
   /// If user not signed-in with wallet - show prompt
-  if (!isSignedIn) {
-    // Sign-in flow will reload the page later
-    return <SignInPrompt greeting={valueFromBlockchain} onClick={() => wallet.signIn()}/>;
-  }
+  // if (!isSignedIn) {
+  //   // Sign-in flow will reload the page later
+  //   return <SignInPrompt greeting={valueFromBlockchain} onClick={() => wallet.signIn()}/>;
+  // }
 
-  function changeGreeting(e) {
-    e.preventDefault();
-    setUiPleaseWait(true);
-    const { greetingInput } = e.target.elements;
-    helloNEAR.setGreeting(greetingInput.value)
-      .then(async () => {return helloNEAR.getGreeting();})
-      .then(setValueFromBlockchain)
-      .finally(() => {
-        setUiPleaseWait(false);
-      });
-  }
+  // function changeGreeting(e) {
+  //   e.preventDefault();
+  //   setUiPleaseWait(true);
+  //   const { greetingInput } = e.target.elements;
+  //   helloNEAR.setGreeting(greetingInput.value)
+  //     .then(async () => {return helloNEAR.getGreeting();})
+  //     .then(setValueFromBlockchain)
+  //     .finally(() => {
+  //       setUiPleaseWait(false);
+  //     });
+  // }
+
+  React.useEffect(() => {
+    helloNEAR.getNfts()
+    .then(setNftData)
+    .catch(alert)
+  }, [])
 
   return (
-    <>
-      <SignOutButton accountId={wallet.accountId} onClick={() => wallet.signOut()}/>
-      <main className={uiPleaseWait ? 'please-wait' : ''}>
-        <h1>
-          The contract says: <span className="greeting">{valueFromBlockchain}</span>
-        </h1>
-        <form onSubmit={changeGreeting} className="change">
-          <label>Change greeting:</label>
-          <div>
-            <input
-              autoComplete="off"
-              defaultValue={valueFromBlockchain}
-              id="greetingInput"
-            />
-            <button>
-              <span>Save</span>
-              <div className="loader"></div>
-            </button>
-          </div>
-        </form>
-        <div>
-          <text>{`wallet ID: ${helloNEAR.wallet.accountId}`}</text>
+    // <>
+    <div>
+      <NavBar isSignedIn={isSignedIn} wallet={wallet}/>
+
+      <Container>
+        <Row style={{justifyContent: 'center', alignItems: 'center'}}>
+          <Col style={{display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
+              <iframe 
+                width="709" 
+                height="399" 
+                src="https://www.youtube.com/embed/cXWlgP5hZzc" 
+                title="YouTube video player" 
+                frameborder="0" 
+                // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+
+          </Col>
+        </Row>
+        <div style={{marginBottom: 40}}>
+          <Row style={{display: 'flex',justifyContent:'center', marginBottom: 20, marginTop: 60}}>
+            <Col sm={8} style={{fontSize: 24, fontWeight: 'bolder', textAlign: 'center'}}>
+            Firewatch is a mystery set in the Wyoming wilderness, 
+            where your only emotional lifeline is the person on 
+            the other end of a handheld radio.
+            </Col>
+          </Row>
+          <Row style={{justifyContent:'center'}}>
+            <Col sm={3} style={{fontSize: 17, fontWeight: 'bold', lineHeight: 2}}>
+            The year is 1989.
+
+            You are a man named Henry who has retreated from your messy life to work as a fire lookout in the Wyoming wilderness. 
+            Perched atop a mountain, it's your job to find smoke and keep the wilderness safe.
+
+            An especially hot, dry summer has everyone on edge. 
+            Your supervisor, a woman named Delilah, is available to you
+            </Col>
+            <Col sm={3} style={{fontSize: 17, fontWeight: 'bold', lineHeight: 2}}>
+            at all times over a small, handheld radio—and is your only 
+            contact with the world you've left behind.
+
+            But when something strange draws you out of your lookout tower and 
+            into the world below, you'll explore a wild and unknown environment, 
+            facing questions and making interpersonal choices that 
+            can build or destroy the only meaningful relationship you have.
+            </Col>
+          </Row>
         </div>
-      </main>
-    </>
+        <div >
+          <Row style={{ marginBottom: 30, }}>
+            <Col style={{display: 'flex',justifyContent: 'flex-end'}}>
+              <img src={image} width={450} height={225} />
+            </Col>
+            <Col>
+            <img src={image} width={450} height={225}/>
+            </Col>
+          </Row>
+          <Row>
+            <Col style={{display: 'flex',justifyContent: 'flex-end'}}>
+            <img src={image} width={450} height={225}/>
+            </Col>
+            <Col>
+            <img src={image} width={450} height={225}/>
+            </Col>
+          </Row>
+        </div>
+    </Container>
+    </div>
+    // </>
   );
 }
