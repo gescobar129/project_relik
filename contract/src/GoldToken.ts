@@ -8,7 +8,7 @@ import {
 	assert,
 } from "near-sdk-js";
 
-@NearBindgen({ initRequired: true })
+@NearBindgen({ requireInit: true })
 export class GoldToken {
 	accounts: LookupMap
 	totalSupply: BigInt;

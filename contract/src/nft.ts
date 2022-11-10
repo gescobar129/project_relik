@@ -1,5 +1,5 @@
 
-import { NearBindgen, near, call, view, LookupMap, UnorderedMap, Vector, UnorderedSet } from 'near-sdk-js'
+import { NearBindgen, near, call, view, LookupMap, UnorderedMap, Vector, UnorderedSet, initialize } from 'near-sdk-js'
 import { NFTContractMetadata, Token, TokenMetadata, internalNftMetadata } from './metadata';
 import { internalMint } from './mint';
 import { internalNftTokens, internalSupplyForOwner, internalTokensForOwner, internalTotalSupply } from './enumeration';
@@ -15,10 +15,10 @@ export const NFT_STANDARD_NAME = "nep171";
 
 @NearBindgen({ requireInit: true })
 export class Contract {
-    owner_id: string;
-    tokensPerOwner: LookupMap;
-    tokensById: LookupMap;
-    tokenMetadataById: UnorderedMap;
+    owner_id: string = "";
+    tokensPerOwner: LookupMap = new LookupMap("tokensPerOwner");
+    tokensById: LookupMap = new LookupMap("tokensById");
+    tokenMetadataById: UnorderedMap = new UnorderedMap('tokenMetadataById');
     metadata: NFTContractMetadata;
 
     /*
@@ -26,30 +26,23 @@ export class Contract {
         this initializes the contract with metadata that was passed in and
         the owner_id. 
     */
-    constructor({
+    @initialize({ privateFunction: true })
+    init({
         owner_id,
-        metadata = {
-            spec: "nft-1.0.0",
-            name: "NFT Tutorial Contract",
-            symbol: "GOTEAM"
-        }
+        metadata
     }) {
 
         this.owner_id = owner_id;
-        this.tokensPerOwner = new LookupMap("tokensPerOwner");
-        this.tokensById = new LookupMap("tokensById");
-        this.tokenMetadataById = new UnorderedMap("tokenMetadataById");
+        // this.tokensPerOwner = new LookupMap("tokensPerOwner");
+        // this.tokensById = new LookupMap("tokensById");
+        // this.tokenMetadataById = new UnorderedMap("tokenMetadataById");
         this.metadata = metadata;
-    }
-
-    default() {
-        return new Contract({ owner_id: '' })
     }
 
     /*
         MINT
     */
-    @call({})
+    @call({ payableFunction: true })
     nft_mint({ token_id, metadata, receiver_id, perpetual_royalties }) {
         return internalMint({ contract: this, tokenId: token_id, metadata: metadata, receiverId: receiver_id, perpetualRoyalties: perpetual_royalties });
     }
@@ -64,7 +57,7 @@ export class Contract {
     }
 
     //implementation of the nft_transfer method. This transfers the NFT from the current owner to the receiver. 
-    @call({})
+    @call({ payableFunction: true })
     nft_transfer({ receiver_id, token_id, approval_id, memo }) {
         return internalNftTransfer({ contract: this, receiverId: receiver_id, tokenId: token_id, approvalId: approval_id, memo: memo });
     }

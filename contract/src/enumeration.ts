@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { near, UnorderedSet } from "near-sdk-js";
-import { Contract, NFT_METADATA_SPEC, NFT_STANDARD_NAME } from ".";
+import { Contract, NFT_METADATA_SPEC, NFT_STANDARD_NAME } from "./nft";
 import { restoreOwners } from "./internal";
 import { JsonToken } from "./metadata";
 import { internalNftToken } from "./nft_core";
@@ -11,7 +11,7 @@ export function internalTotalSupply({
 }: {
     contract: Contract
 }): number {
-    //return the length of the token metadata by ID
+    // return the length of the token metadata by ID
     return contract.tokenMetadataById.len();
 }
 
