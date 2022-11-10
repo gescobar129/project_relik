@@ -1,6 +1,13 @@
 import * as functions from "firebase-functions";
+import { GetAccountResponse, NFT } from "./types";
+import { filter } from 'lodash';
+
 const nearAPI = require("near-api-js");
-const fs = require('fs')
+
+
+const nftaccount_id = 'poopypants666.poopypants.testnet'
+const account_id = 'poopypants.testnet'
+const ftaccount_id = 'goldtokenv2.poopypants.testnet'
 
 const connectToNear = async () => {
   const { keyStores, connect } = nearAPI;
@@ -24,66 +31,89 @@ const connectToNear = async () => {
   return nearConnection
 }
 
-const deployContract = async () => {
-  const nearConnection = await connectToNear()
-  const account = await nearConnection.account("cardi.testnet");
-  const response = await account.deployContract(fs.readFileSync('/Users/gaidaescobar/Development/platformer-game/contract/build/hello_near.wasm'));
-  console.log("DEPLOY CONTRACT RESPONSE",response);
-}
 
-const loadContract = async () => {
+const loadContracts = async () => {
   const { Contract } = nearAPI;
-
-  await deployContract()
-
   const nearConnection = await connectToNear()
-  const account = await nearConnection.account("cardi.testnet");
+  const account = await nearConnection.account(account_id);
 
-  const contract = new Contract(
+  const nftContract = new Contract(
     account,
-    "cardi.testnet",
+    nftaccount_id,
     {
-      // name of contract you're connecting to
-      viewMethods: ["get_greeting"], // view methods do not change state but usually return a value
-      changeMethods: ["set_greeting"], // change methods modify state
-      sender: account,
+      viewMethods: ['nft_total_supply', 'nft_tokens', 'nft_tokens_for_owner', 'nft_supply_for_owner', 'nft_metadata'],
+      changeMethods: ['init', 'nft_mint', 'nft_token', 'nft_transfer_call', 'nft_resolve_transfer', 'nft_approve', 'nft_transfer_payout', 'nft_revoke', 'nft_revoke_call', 'nft_transfer']
     }
   );
-  
-  console.log('CONTRACT******', contract)
-  return contract
+
+  const ftContract = new Contract(
+    account,
+    ftaccount_id,
+    {
+      viewMethods: ['ft_total_supply', 'ft_balance_of'],
+      changeMethods: ['init', 'storage_deposit', 'ft_transfer', 'ft_transfer_call'],
+    }
+  )
+
+  console.log('nftContract', nftContract)
+  console.log('ftContract', ftContract)
+
+  return {
+    nftContract,
+    ftContract
+  }
 }
-
-const callContract = async () => {
-  const contract = await loadContract()
-  // const greetingChange = await contract.set_greeting({
-  //   message: "DBC!"
-  // })
-  const currentGreeting = await contract.get_greeting()
-  // const response = await contract.get_greeting();
-  // console.log('Greeting CHANGED to:',greetingChange);
-  console.log('Current GREETING:', currentGreeting)
-  return currentGreeting
-}
-
-
-
 
 
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
 //
 // export const helloWorld = functions.https.onRequest((request, response) => {
-  //   functions.logger.info("Hello logs!", {structuredData: true});
-  //   response.send("Hello from Firebase!");
-  // });
+//   functions.logger.info("Hello logs!", {structuredData: true});
+//   response.send("Hello from Firebase!");
+// });
 
-  // loadContract()
-  // deployContract()
-  callContract()
-  // connectToNear()
-export const startGame = functions.https.onRequest(async(request, response) => {
-  const startGameData = await callContract()
+export const getGameAccount = functions.https.onRequest(async (request, response) => {
+  const nearConnection = await connectToNear()
+  // Request simply uses an account_id query param
+  const account_id = request.query.account_id as string;
+  const contracts = await loadContracts()
+
+  if (!account_id) {
+    throw new functions.https.HttpsError('invalid-argument', 'account_id is undefined. Please send a valid account_id with your request')
+  }
+
   console.log('response', response)
-  response.send(startGameData)
+
+  const userData: GetAccountResponse = {
+    accountId: account_id,
+    nearBalance: 0,
+    goldBalance: 0,
+    ownedNfts: {
+      loot: [],
+      characters: [],
+    }
+  }
+
+  // get NEAR balance
+  const account = await nearConnection.account(account_id)
+  userData.nearBalance = await account.getAccountBalance();
+
+  // get NFTs for account
+  const nfts = await contracts.nftContract.nft_tokens_for_owner({ account_id })
+  userData.ownedNfts.characters = filter(nfts, (nft: NFT) => {
+    const extraData = JSON.parse(nft.metadata.extra)
+    return extraData.type === 'character'
+  });
+
+  userData.ownedNfts.loot = filter(nfts, (nft: NFT) => {
+    const extraData = JSON.parse(nft.metadata.extra)
+    return extraData.type !== 'character'
+  })
+
+  // get Gold Token Balance for account
+  userData.goldBalance = await contracts.ftContract.ft_balance_of({ account_id })
+
+
+  response.status(200).send(userData)
 })

@@ -79,21 +79,21 @@ const mint_nft = async (account) => {
 
 	console.log('Minting NFTs....')
 
-	for (let i = 5; i < 10; i++) {
+	for (let i = 20; i < 22; i++) {
 
 		await nftContract.nft_mint({
 			args: {
 				token_id: i,
 				metadata: {
-					title: 'someName',
-					description: 'some description should go here',
+					title: 'Explorer',
+					description: 'A random explorer from the exon system. Nothing remarkable, and no special skills',
 					media: media_url,
 					media_hash: crypto.createHash('sha256').update(media_url).digest('base64'),
-					copies: 5,
+					copies: 1000,
 					extra: JSON.stringify({
-						type: 'equipment',
-						stat_bonuses: {
-							str: '0',
+						type: 'character',
+						stats: {
+							str: '3',
 							def: '0',
 							mag: '0',
 							luck: '0'
@@ -103,7 +103,7 @@ const mint_nft = async (account) => {
 				},
 				receiver_id: 'poopypants.testnet'
 			},
-			amount: '10390000000000000000000',
+			amount: '20390000000000000000000',
 
 		})
 
@@ -120,7 +120,7 @@ const send_nft = async (account) => {
 	await nftContract.nft_transfer({
 		args: {
 			receiver_id: 'pocket.testnet',
-			token_id: 7,
+			token_id: 21,
 		},
 		amount: '1'
 	})
@@ -213,13 +213,13 @@ const runscript = async () => {
 
 	// await deployContract(account)
 	// await mint_nft(account)
-	// await send_nft(account)
+	await send_nft(account)
 	// await nftForOwner(account)
 
 
 	// GOLD Token
 	// await deployFtContract(account)
-	await transferGoldTokens(account)
+	// await transferGoldTokens(account)
 }
 
 
