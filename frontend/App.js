@@ -9,8 +9,6 @@ import {
   Col,
 } from 'react-bootstrap'
 
-import NavBar from './NavBar';
-
 export default function App({ isSignedIn, helloNEAR, wallet }) {
   const [valueFromBlockchain, setValueFromBlockchain] = React.useState();
   const [nftData, setNftData] = React.useState()
@@ -47,8 +45,7 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
   return (
     // <>
     <div>
-      <NavBar isSignedIn={isSignedIn} wallet={wallet}/>
-
+        {/* <NavBar isSignedIn={isSignedIn} wallet={wallet}/> */}
       <Container>
         <Row style={{justifyContent: 'center', alignItems: 'center'}}>
           <Col style={{display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
@@ -111,7 +108,7 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
             </Col>
           </Row>
         </div>
-    </Container>
+    </Container> 
     </div>
     // </>
   );

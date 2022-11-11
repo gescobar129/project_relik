@@ -8,12 +8,15 @@ const NavBar = ({isSignedIn, wallet}) => {
   return (
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Relik</Navbar.Brand>
+        <Navbar.Brand href="/">Relik</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         {isSignedIn && (
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">NFT</Nav.Link>
+              <Nav.Link href="nft">
+                NFT
+                {/* <Link to='/nft'>NFT</Link> */}
+              </Nav.Link>
               <Nav.Link href="#pricing">Pricing</Nav.Link>
             </Nav>
             {/* <Nav> */}
