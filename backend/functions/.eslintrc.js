@@ -36,6 +36,9 @@ module.exports = {
     "eol-last": 0,
     "no-tabs": 0,
     "no-trailing-spaces": 0,
-    "@typescript-eslint/no-var-requires": 0
+    "@typescript-eslint/no-var-requires": 0,
+    "padded-blocks": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "no-multiple-empty-lines": 0
   },
 };

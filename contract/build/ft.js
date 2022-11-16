@@ -551,7 +551,7 @@ let FungibleToken = (_dec = NearBindgen({
 }), _dec5 = call({
   payableFunction: true
 }), _dec6 = view({}), _dec7 = view({}), _dec(_class = (_class2 = class FungibleToken {
-  accounts = new LookupMap("a");
+  accounts = new LookupMap("accounts");
   totalSupply = "0";
   init({
     owner_id,

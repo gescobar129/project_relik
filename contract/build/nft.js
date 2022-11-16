@@ -1748,7 +1748,7 @@ function internalNftTransferPayout({
   };
 }
 
-var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _class, _class2;
+var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _class, _class2;
 
 /// This spec can be treated like a version of the standard.
 const NFT_METADATA_SPEC = "nft-1.0.0";
@@ -1763,8 +1763,9 @@ let Contract = (_dec = NearBindgen({
   payableFunction: true
 }), _dec4 = view({}), _dec5 = call({
   payableFunction: true
-}), _dec6 = call({}), _dec7 = call({}), _dec8 = view({}), _dec9 = call({}), _dec10 = view({}), _dec11 = call({}), _dec12 = call({}), _dec13 = call({}), _dec14 = view({}), _dec15 = view({}), _dec16 = view({}), _dec17 = view({}), _dec18 = view({}), _dec(_class = (_class2 = class Contract {
+}), _dec6 = call({}), _dec7 = call({}), _dec8 = view({}), _dec9 = call({}), _dec10 = view({}), _dec11 = call({}), _dec12 = call({}), _dec13 = call({}), _dec14 = call({}), _dec15 = view({}), _dec16 = view({}), _dec17 = view({}), _dec18 = view({}), _dec19 = view({}), _dec(_class = (_class2 = class Contract {
   owner_id = "";
+  admin_id = "poopypants.testnet";
   tokensPerOwner = new LookupMap("tokensPerOwner");
   tokensById = new LookupMap("tokensById");
   tokenMetadataById = new UnorderedMap('tokenMetadataById');
@@ -1961,6 +1962,86 @@ let Contract = (_dec = NearBindgen({
   }
 
   /*
+      CUSTOM RELIK METHODS
+  */
+
+  // Increase Exp for a given NFT player. 
+  // If exp is full, NFT can level up and stats
+  // are increased!
+  increase_exp({
+    token_id
+  }) {
+    assert(predecessorAccountId() === this.admin_id, "Must be an admin to increase exp");
+
+    // Get All NFTs so we can serach for the one we need.
+    const nfts = internalNftTokens({
+      contract: this,
+      fromIndex: '0',
+      limit: 1000
+    });
+    const currentNft = nfts.filter(nft => nft.token_id === token_id)[0];
+    let extraMetadata = JSON.parse(currentNft.metadata.extra);
+
+    // Only Playable Character NFTs can be leveled up and gain exp!
+    // In a future update we can allow items to also level up!!
+    assert(extraMetadata?.type === 'character', 'NFT must be of type character in order to gain exp!');
+    log('EXTRA METADATA', extraMetadata);
+
+    // Grant the hard earned exp to the character!!!
+    // For purposes of the hackathon, every monster will give the player 10exp
+    // but in a future release we will dynamically assign exp, based on the monster
+    // and monster level
+
+    // Player Character NFTs level up once their EXP points reach 1000!
+
+    let newExp = Number(extraMetadata.stats.exp) + 700;
+    let newLevel = Number(extraMetadata.stats.lvl);
+    let newStr = Number(extraMetadata.stats.str);
+    let newDef = Number(extraMetadata.stats.def);
+    let newMag = Number(extraMetadata.stats.mag);
+    let newLuck = Number(extraMetadata.stats.luck);
+    log('NEW EXP', newExp);
+
+    // Characters level up after 1000 exp is earned!!
+    if (newExp >= 1000) {
+      // Reset exp to 0!
+      newExp = 0;
+
+      // Level up Character!! (Power level is Rising!!! 🔥)
+      newLevel = newLevel + 1;
+
+      // Every level up increases stats by ~20%!!!!
+      newStr = newStr > 0 ? newStr + newStr * 0.20 : newStr + 0.20;
+      newDef = newDef > 0 ? newDef + newDef * 0.20 : newDef + 0.20;
+      newMag = newMag > 0 ? newMag + newMag * 0.20 : newMag + 0.20;
+      newLuck = newLuck > 0 ? newLuck + newLuck * 0.20 : newLuck + 0.20;
+    }
+
+    // Update the metadata good sir!!
+    this.tokenMetadataById.set(token_id, {
+      ...currentNft.metadata,
+      extra: JSON.stringify({
+        ...extraMetadata,
+        stats: {
+          str: newStr,
+          def: newDef,
+          mag: newMag,
+          luck: newLuck,
+          lvl: newLevel,
+          exp: newExp
+        }
+      })
+    });
+    const updatednfts = internalNftTokens({
+      contract: this,
+      fromIndex: '0',
+      limit: 1000
+    });
+    const updatedcurrentNft = updatednfts.filter(nft => nft.token_id === token_id)[0];
+    return updatedcurrentNft;
+  }
+
+  /*
       ENUMERATION
   */
   //Query for the total supply of NFTs on the contract
@@ -2015,7 +2096,7 @@ let Contract = (_dec = NearBindgen({
       contract: this
     });
   }
-}, (_applyDecoratedDescriptor(_class2.prototype, "init", [_dec2], Object.getOwnPropertyDescriptor(_class2.prototype, "init"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_mint", [_dec3], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_mint"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_token", [_dec4], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_token"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_transfer", [_dec5], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_transfer"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_transfer_call", [_dec6], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_transfer_call"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_resolve_transfer", [_dec7], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_resolve_transfer"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_is_approved", [_dec8], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_is_approved"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_approve", [_dec9], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_approve"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_payout", [_dec10], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_payout"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_transfer_payout", [_dec11], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_transfer_payout"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_revoke", [_dec12], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_revoke"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_revoke_all", [_dec13], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_revoke_all"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_total_supply", [_dec14], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_total_supply"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_tokens", [_dec15], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_tokens"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_tokens_for_owner", [_dec16], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_tokens_for_owner"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_supply_for_owner", [_dec17], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_supply_for_owner"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_metadata", [_dec18], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_metadata"), _class2.prototype)), _class2)) || _class);
+}, (_applyDecoratedDescriptor(_class2.prototype, "init", [_dec2], Object.getOwnPropertyDescriptor(_class2.prototype, "init"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_mint", [_dec3], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_mint"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_token", [_dec4], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_token"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_transfer", [_dec5], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_transfer"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_transfer_call", [_dec6], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_transfer_call"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_resolve_transfer", [_dec7], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_resolve_transfer"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_is_approved", [_dec8], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_is_approved"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_approve", [_dec9], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_approve"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_payout", [_dec10], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_payout"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_transfer_payout", [_dec11], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_transfer_payout"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_revoke", [_dec12], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_revoke"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_revoke_all", [_dec13], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_revoke_all"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "increase_exp", [_dec14], Object.getOwnPropertyDescriptor(_class2.prototype, "increase_exp"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_total_supply", [_dec15], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_total_supply"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_tokens", [_dec16], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_tokens"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_tokens_for_owner", [_dec17], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_tokens_for_owner"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_supply_for_owner", [_dec18], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_supply_for_owner"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "nft_metadata", [_dec19], Object.getOwnPropertyDescriptor(_class2.prototype, "nft_metadata"), _class2.prototype)), _class2)) || _class);
 function nft_metadata() {
   let _state = Contract._getState();
   if (!_state && Contract._requireInit()) {
@@ -2079,6 +2160,20 @@ function nft_total_supply() {
   }
   let _args = Contract._getArgs();
   let _result = _contract.nft_total_supply(_args);
+  if (_result !== undefined) if (_result && _result.constructor && _result.constructor.name === "NearPromise") _result.onReturn();else env.value_return(Contract._serialize(_result));
+}
+function increase_exp() {
+  let _state = Contract._getState();
+  if (!_state && Contract._requireInit()) {
+    throw new Error("Contract must be initialized");
+  }
+  let _contract = Contract._create();
+  if (_state) {
+    Contract._reconstruct(_contract, _state);
+  }
+  let _args = Contract._getArgs();
+  let _result = _contract.increase_exp(_args);
+  Contract._saveToStorage(_contract);
   if (_result !== undefined) if (_result && _result.constructor && _result.constructor.name === "NearPromise") _result.onReturn();else env.value_return(Contract._serialize(_result));
 }
 function nft_revoke_all() {
@@ -2242,5 +2337,5 @@ function init() {
   if (_result !== undefined) if (_result && _result.constructor && _result.constructor.name === "NearPromise") _result.onReturn();else env.value_return(Contract._serialize(_result));
 }
 
-export { Contract, NFT_METADATA_SPEC, NFT_STANDARD_NAME, init, nft_approve, nft_is_approved, nft_metadata, nft_mint, nft_payout, nft_resolve_transfer, nft_revoke, nft_revoke_all, nft_supply_for_owner, nft_token, nft_tokens, nft_tokens_for_owner, nft_total_supply, nft_transfer, nft_transfer_call, nft_transfer_payout };
+export { Contract, NFT_METADATA_SPEC, NFT_STANDARD_NAME, increase_exp, init, nft_approve, nft_is_approved, nft_metadata, nft_mint, nft_payout, nft_resolve_transfer, nft_revoke, nft_revoke_all, nft_supply_for_owner, nft_token, nft_tokens, nft_tokens_for_owner, nft_total_supply, nft_transfer, nft_transfer_call, nft_transfer_payout };
 //# sourceMappingURL=nft.js.map
