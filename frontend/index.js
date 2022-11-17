@@ -39,20 +39,21 @@ window.onload = async () => {
     {
       path: "/",
       element: (
-        <App isSignedIn={isSignedIn} helloNEAR={helloNEAR} wallet={wallet} />
+        <App isSignedIn={isSignedIn} helloNEAR={helloNEAR} wallet={wallet}/>
       ),
     },
     {
       path: "nft",
-      element: <NftPage />
+      element: <NftPage helloNEAR={helloNEAR}/>
     },
   ]);
  
   ReactDOM.render(
-    <div>
+    <React.StrictMode>
       <NavBar isSignedIn={isSignedIn} wallet={wallet}/>
       <RouterProvider router={router} />
-    </div>,
+
+    </React.StrictMode>,
     document.getElementById('root')
     );
   }

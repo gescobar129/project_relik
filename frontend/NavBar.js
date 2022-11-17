@@ -14,10 +14,9 @@ const NavBar = ({isSignedIn, wallet}) => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="nft">
-                NFT
-                {/* <Link to='/nft'>NFT</Link> */}
+                My NFTs
               </Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
             </Nav>
             {/* <Nav> */}
               {/* <Nav.Link href="#deets">NFT</Nav.Link> */}

@@ -24,18 +24,6 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
   //   return <SignInPrompt greeting={valueFromBlockchain} onClick={() => wallet.signIn()}/>;
   // }
 
-  // function changeGreeting(e) {
-  //   e.preventDefault();
-  //   setUiPleaseWait(true);
-  //   const { greetingInput } = e.target.elements;
-  //   helloNEAR.setGreeting(greetingInput.value)
-  //     .then(async () => {return helloNEAR.getGreeting();})
-  //     .then(setValueFromBlockchain)
-  //     .finally(() => {
-  //       setUiPleaseWait(false);
-  //     });
-  // }
-
   React.useEffect(() => {
     helloNEAR.getNfts()
     .then(setNftData)
@@ -43,9 +31,7 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
   }, [])
 
   return (
-    // <>
     <div>
-        {/* <NavBar isSignedIn={isSignedIn} wallet={wallet}/> */}
       <Container>
         <Row style={{justifyContent: 'center', alignItems: 'center'}}>
           <Col style={{display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
@@ -110,6 +96,5 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
         </div>
     </Container> 
     </div>
-    // </>
   );
 }

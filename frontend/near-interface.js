@@ -11,7 +11,7 @@ export class HelloNEAR {
   }
 
   async getNfts() {
-    return await this.wallet.viewMethod({ contractId: 'poopypants666.poopypants.testnet',  method: 'nft_tokens_for_owner', args: { account_id: 'pocket.testnet' }})
+    return await this.wallet.viewMethod({ contractId: 'nftv2.relik.testnet',  method: 'nft_tokens_for_owner', args: { account_id: 'pocket.testnet' }})
   }
 
   async setGreeting(greeting) {
