@@ -32,7 +32,6 @@ public class SwordWielder : MonoBehaviour
 
     private void Awake()
     {
-        focusPoint = transform.GetChild(0);
 
         if (!focusPoint)
         {
