@@ -16,7 +16,6 @@ const NavBar = ({isSignedIn, wallet}) => {
               <Nav.Link href="nft">
                 My NFTs
               </Nav.Link>
-              {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
             </Nav>
             {/* <Nav> */}
               {/* <Nav.Link href="#deets">NFT</Nav.Link> */}
@@ -26,7 +25,9 @@ const NavBar = ({isSignedIn, wallet}) => {
         )}
         {isSignedIn ?  (
           <SignOutButton accountId={wallet.accountId} onClick={()=> wallet.signOut()}/>
-        ) : <SignInPrompt onClick={() => wallet.signIn()} />}
+        ) : (
+          <SignInPrompt onClick={() => wallet.signIn()}/>
+        )}
       </Container>
     </Navbar>
   )

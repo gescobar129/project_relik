@@ -16,6 +16,7 @@ import { Wallet } from './near-wallet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './NavBar';
 import NftPage from './NftPage';
+import LoginModal from './LoginModal';
 
 // The Cloud Functions for Firebase SDK to create Cloud Functions and set up triggers.
 // const functions = require('firebase-functions');
@@ -46,13 +47,16 @@ window.onload = async () => {
       path: "nft",
       element: <NftPage helloNEAR={helloNEAR}/>
     },
+    {
+      path: "wallet-login",
+      element: <LoginModal wallet={wallet} isSignedIn={isSignedIn}/>
+    }
   ]);
  
   ReactDOM.render(
     <React.StrictMode>
       <NavBar isSignedIn={isSignedIn} wallet={wallet}/>
       <RouterProvider router={router} />
-
     </React.StrictMode>,
     document.getElementById('root')
     );

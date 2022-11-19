@@ -1,5 +1,5 @@
 import 'regenerator-runtime/runtime';
-import React from 'react';
+import React, {useEffect} from 'react';
 import './assets/global.css';
 import image from './assets/firewatch.jpeg'
 
@@ -9,27 +9,25 @@ import {
   Col,
 } from 'react-bootstrap'
 
-export default function App({ isSignedIn, helloNEAR, wallet }) {
-  const [valueFromBlockchain, setValueFromBlockchain] = React.useState();
+const App = ({ isSignedIn, helloNEAR, wallet }) => {
   const [nftData, setNftData] = React.useState()
-
-  const [uiPleaseWait, setUiPleaseWait] = React.useState(true);
-
+  
+  // const [uiPleaseWait, setUiPleaseWait] = React.useState(true);
+  
   console.log('wallet info', wallet)
   console.log('nft data: ', nftData)
-
+  
   /// If user not signed-in with wallet - show prompt
   // if (!isSignedIn) {
-  //   // Sign-in flow will reload the page later
-  //   return <SignInPrompt greeting={valueFromBlockchain} onClick={() => wallet.signIn()}/>;
+  //   return <LoginModal wallet={wallet} />
   // }
-
-  React.useEffect(() => {
+  
+  useEffect(() => {
     helloNEAR.getNfts()
     .then(setNftData)
     .catch(alert)
   }, [])
-
+    
   return (
     <div>
       <Container>
@@ -44,7 +42,7 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
                 // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
               </iframe>
-
+  
           </Col>
         </Row>
         <div style={{marginBottom: 40}}>
@@ -58,17 +56,17 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
           <Row style={{justifyContent:'center'}}>
             <Col sm={3} style={{fontSize: 17, fontWeight: 'bold', lineHeight: 2}}>
             The year is 1989.
-
+  
             You are a man named Henry who has retreated from your messy life to work as a fire lookout in the Wyoming wilderness. 
             Perched atop a mountain, it's your job to find smoke and keep the wilderness safe.
-
+  
             An especially hot, dry summer has everyone on edge. 
             Your supervisor, a woman named Delilah, is available to you
             </Col>
             <Col sm={3} style={{fontSize: 17, fontWeight: 'bold', lineHeight: 2}}>
             at all times over a small, handheld radio—and is your only 
             contact with the world you've left behind.
-
+  
             But when something strange draws you out of your lookout tower and 
             into the world below, you'll explore a wild and unknown environment, 
             facing questions and making interpersonal choices that 
@@ -98,3 +96,5 @@ export default function App({ isSignedIn, helloNEAR, wallet }) {
     </div>
   );
 }
+
+export default App

@@ -76,7 +76,6 @@ const NftPage = ({ helloNEAR }) => {
         </h2>
       <Row xs={1} md={4} style={{display: 'flex',justifyContent: 'center', alignItems: 'center'}}>
         {nftList()}
-
       </Row>
 
     </Container>
