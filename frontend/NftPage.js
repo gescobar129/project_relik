@@ -46,8 +46,8 @@ const NftPage = ({ helloNEAR }) => {
       }
 
       return (
-        <Col style={{borderStyle: 'solid', display: 'flex', alignSelf: 'stretch', marginTop: 30}}>
-          <Card>
+        <Col style={{ display: 'flex', alignSelf: 'stretch', marginTop: 30}}>
+          <Card> 
             <Card.Header style={{
               fontSize: 12, 
               height: 30, 
@@ -55,7 +55,7 @@ const NftPage = ({ helloNEAR }) => {
               }}>
                 {obj.type.toUpperCase()}
             </Card.Header>
-            <Card.Img variant="top" style={{height: 200, width: 200, alignSelf: 'center', borderRadius: 12, backgroundColor: 'grey', marginTop: 10}} 
+            <Card.Img variant="top" style={{height: 150, width: 150, alignSelf: 'center', borderRadius: 12, backgroundColor: 'grey', marginTop: 10}} 
             src={item.media} />
             <Card.Body >
               <Card.Title style={{fontSize: 18, fontWeight: 700}}>{item.title}</Card.Title>
@@ -70,8 +70,8 @@ const NftPage = ({ helloNEAR }) => {
     })
   }
   return (
-    <Container fluid style={{ height: '100vh', background: "#222222"}}>
-        <h2 style={{color: '#FFFFFF', fontFamily: 'Fredoka One'}}>
+    <Container fluid style={{  background: "#9E8475", }}>
+        <h2 style={{color: '#FFFFFF', fontFamily: 'Anton'}}>
           My NFTs
         </h2>
       <Row xs={1} md={4} style={{display: 'flex',justifyContent: 'center', alignItems: 'center'}}>

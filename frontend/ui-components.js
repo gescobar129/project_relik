@@ -8,7 +8,7 @@ export function SignInPrompt({onClick}) {
 
 export function SignOutButton({accountId, onClick}) {
   return (
-    <button style={{ float: 'right', borderRadius: 12 }} onClick={onClick}>
+    <button style={{ float: 'right', borderRadius: 12, backgroundColor: '#03293E', color: '#9E8475', fontSize:17, fontWeight: 'bold' }} onClick={onClick}>
       Sign out {accountId}
     </button>
   );

@@ -2,6 +2,7 @@ import 'regenerator-runtime/runtime';
 import React, {useEffect} from 'react';
 import './assets/global.css';
 import image from './assets/firewatch.jpeg'
+import image3 from './assets/blue.jpg'
 
 import { 
   Container,
@@ -29,24 +30,50 @@ const App = ({ isSignedIn, helloNEAR, wallet }) => {
   }, [])
     
   return (
-    <div>
-      <Container>
-        <Row style={{justifyContent: 'center', alignItems: 'center'}}>
+      <Container fluid style={{backgroundColor: '#03293E'}}>
+        <Row>
+          <Col style={{padding: 0, display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
+            <img src={image3} style={{width: '100%', height: 650, objectFit: 'cover'}}/>
+              <h1 style={{
+                position: 'absolute', 
+                top: '30%', 
+                left: '15%', 
+                transform: 'translate(-50%, -50%)', 
+                fontSize: 120, 
+                color: '#FFFFFF', 
+                fontFamily: 'Staatliches' 
+                }}>
+                  Relik
+              </h1>
+              <span style={{
+                position: 'absolute', 
+                top: '55%', 
+                left: '37%', 
+                transform: 'translate(-50%, -50%)', 
+                fontSize: 40, 
+                color: '#FFFFFF', 
+                fontFamily: 'Staatliches',
+                letterSpacing: 1.5
+                }}>
+                  A journey into the unknown to defend the multiverse
+              </span>
+          </Col>
+        </Row>
+        <Row style={{marginTop: 40}}>
           <Col style={{display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
               <iframe 
-                width="709" 
-                height="399" 
+                width="70%" 
+                height="499" 
                 src="https://www.youtube.com/embed/cXWlgP5hZzc" 
                 title="YouTube video player" 
                 frameborder="0" 
                 // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
               </iframe>
-  
           </Col>
         </Row>
-        <div style={{marginBottom: 40}}>
-          <Row style={{display: 'flex',justifyContent:'center', marginBottom: 20, marginTop: 60}}>
+        <div style={{marginBottom: 40, color: '#9E8475'}}>
+          <Row style={{display: 'flex',justifyContent:'center', marginBottom: 40, marginTop: 60}}>
             <Col sm={8} style={{fontSize: 24, fontWeight: 'bolder', textAlign: 'center'}}>
             Firewatch is a mystery set in the Wyoming wilderness, 
             where your only emotional lifeline is the person on 
@@ -74,7 +101,7 @@ const App = ({ isSignedIn, helloNEAR, wallet }) => {
             </Col>
           </Row>
         </div>
-        <div >
+        <div style={{paddingBottom: 50}}>
           <Row style={{ marginBottom: 30, }}>
             <Col style={{display: 'flex',justifyContent: 'flex-end'}}>
               <img src={image} width={450} height={225} />
@@ -93,7 +120,6 @@ const App = ({ isSignedIn, helloNEAR, wallet }) => {
           </Row>
         </div>
     </Container> 
-    </div>
   );
 }
 
