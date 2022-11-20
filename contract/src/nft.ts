@@ -1,11 +1,12 @@
 
-import { NearBindgen, near, call, view, LookupMap, UnorderedMap, Vector, UnorderedSet, initialize } from 'near-sdk-js'
+import { NearBindgen, near, call, view, LookupMap, UnorderedMap, Vector, UnorderedSet, initialize, assert } from 'near-sdk-js'
 import { NFTContractMetadata, Token, TokenMetadata, internalNftMetadata } from './metadata';
 import { internalMint } from './mint';
 import { internalNftTokens, internalSupplyForOwner, internalTokensForOwner, internalTotalSupply } from './enumeration';
 import { internalNftToken, internalNftTransfer, internalNftTransferCall, internalResolveTransfer } from './nft_core';
 import { internalNftApprove, internalNftIsApproved, internalNftRevoke, internalNftRevokeAll } from './approval';
 import { internalNftPayout, internalNftTransferPayout } from './royalty';
+
 
 /// This spec can be treated like a version of the standard.
 export const NFT_METADATA_SPEC = "nft-1.0.0";
@@ -16,6 +17,7 @@ export const NFT_STANDARD_NAME = "nep171";
 @NearBindgen({ requireInit: true })
 export class Contract {
     owner_id: string = "";
+    admin_id: string = "poopypants.testnet";
     tokensPerOwner: LookupMap = new LookupMap("tokensPerOwner");
     tokensById: LookupMap = new LookupMap("tokensById");
     tokenMetadataById: UnorderedMap = new UnorderedMap('tokenMetadataById');
@@ -117,6 +119,109 @@ export class Contract {
         return internalNftRevokeAll({ contract: this, tokenId: token_id });
     }
 
+    /*
+        CUSTOM RELIK METHODS
+    */
+
+    // Increase Exp for a given NFT player. 
+    // If exp is full, NFT can level up and stats
+    // are increased!
+    @call({})
+    increase_exp({ token_id }) {
+        assert(near.predecessorAccountId() === this.admin_id, "Must be an admin to increase exp")
+
+        // Get All NFTs so we can serach for the one we need.
+        const nfts = internalNftTokens({ contract: this, fromIndex: '0', limit: 1000 }) as any[];
+        const currentNft = nfts.filter(nft => nft.token_id === token_id)[0]
+
+
+
+
+        let extraMetadata = JSON.parse(currentNft.metadata.extra)
+
+        // Only Playable Character NFTs can be leveled up and gain exp!
+        // In a future update we can allow items to also level up!!
+        assert(extraMetadata?.type === 'character', 'NFT must be of type character in order to gain exp!');
+
+        near.log('EXTRA METADATA', extraMetadata)
+
+        // Grant the hard earned exp to the character!!!
+        // For purposes of the hackathon, every monster will give the player 10exp
+        // but in a future release we will dynamically assign exp, based on the monster
+        // and monster level
+
+        // Player Character NFTs level up once their EXP points reach 1000!
+
+        let newExp = Number(extraMetadata.stats.exp) + 700
+        let newLevel = Number(extraMetadata.stats.lvl)
+        let newStr = Number(extraMetadata.stats.str)
+        let newDef = Number(extraMetadata.stats.def)
+        let newMag = Number(extraMetadata.stats.mag)
+        let newLuck = Number(extraMetadata.stats.luck)
+
+        near.log('NEW EXP', newExp)
+
+        // Characters level up after 1000 exp is earned!!
+        if (newExp >= 1000) {
+            // Reset exp to 0!
+            newExp = 0;
+
+            // Level up Character!! (Power level is Rising!!! 🔥)
+            newLevel = newLevel + 1
+
+            // Every level up increases stats by ~20%!!!!
+            newStr = newStr > 0 ? (newStr + newStr * 0.20) : (newStr + 0.20);
+            newDef = newDef > 0 ? (newDef + newDef * 0.20) : (newDef + 0.20);
+            newMag = newMag > 0 ? (newMag + newMag * 0.20) : (newMag + 0.20);
+            newLuck = newLuck > 0 ? (newLuck + newLuck * 0.20) : (newLuck + 0.20);
+        }
+
+        // Update the metadata good sir!!
+        this.tokenMetadataById.set(token_id, {
+            ...currentNft.metadata,
+            extra: JSON.stringify({
+                ...extraMetadata,
+                stats: {
+                    str: newStr,
+                    def: newDef,
+                    mag: newMag,
+                    luck: newLuck,
+                    lvl: newLevel,
+                    exp: newExp
+                }
+            })
+        })
+
+        const updatednfts = internalNftTokens({ contract: this, fromIndex: '0', limit: 1000 }) as any[];
+        const updatedcurrentNft = updatednfts.filter(nft => nft.token_id === token_id)[0]
+
+        return updatedcurrentNft
+    }
+
+    @call({})
+    update_level_enemies({ enemy_one, enemy_two, enemy_three, boss }) {
+        const nfts = internalTokensForOwner({ contract: this, accountId: near.predecessorAccountId(), fromIndex: '0' });
+        let levelNft = null;
+
+        nfts.forEach(nft => {
+            if (JSON.parse(nft.metadata.extra).type === 'level') levelNft = nft;
+        })
+
+        assert(levelNft !== null, "Caller does not own a Relik NFT of type level")
+
+        near.log('Found Level NFT', levelNft)
+
+        this.tokenMetadataById.set(levelNft.token_id, {
+            ...levelNft.metadata,
+            extra: JSON.stringify({
+                enemy_one,
+                enemy_two,
+                enemy_three,
+                boss,
+            })
+        })
+
+    }
     /*
         ENUMERATION
     */
