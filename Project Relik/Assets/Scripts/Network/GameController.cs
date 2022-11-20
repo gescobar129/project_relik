@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Application.OpenURL("https://sparkling-griffin-09b3bd.netlify.app/wallet-login");
+        //Application.OpenURL("https://sparkling-griffin-09b3bd.netlify.app/wallet-login");
     }
 
     // Update is called once per frame
