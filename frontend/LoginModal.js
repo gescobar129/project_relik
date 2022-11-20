@@ -7,7 +7,6 @@ const LoginModal = ({wallet, isSignedIn}) => {
       setTimeout(() => {
         alert(`Near wallet - ${wallet.accountId} successfully connected! 
         You may return to the game now.`)
-        console.log("Delayed for 1 second.");
       }, "1000")
     } 
   }
@@ -15,7 +14,10 @@ const LoginModal = ({wallet, isSignedIn}) => {
   useEffect(() => {
     wallet.signIn()
     if (isSignedIn) {
-      fetch(`http://localhost:2050/?walletid=${wallet.accountId}`)
+      console.log('wallet addresss:', wallet.accountId)
+      fetch(`http://localhost:2050/?walletid=${wallet.accountId}`, {
+        mode: 'no-cors'
+      })
       .then(() => {
         showAlert()
       })
