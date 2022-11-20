@@ -4,6 +4,8 @@ import os from 'os'
 import path from 'path'
 import crypto from 'crypto';
 
+import nftData, { lvl_nft } from "./nftData.js";
+
 const connectToNear = async () => {
 	const { keyStores, connect } = nearAPI;
 
@@ -26,9 +28,9 @@ const connectToNear = async () => {
 	return nearConnection
 }
 
-let subaccount_id = 'relikv9.poopypants.testnet'
-let account_id = 'poopypants.testnet'
-let token_account = 'goldtokenv2.poopypants.testnet'
+let subaccount_id = 'nftv3.relik.testnet'
+let account_id = 'relik.testnet'
+let token_account = 'goldtoken.relik.testnet'
 
 const deployNftContract = async (account) => {
 	const accountKeys = await account.getAccessKeys();
@@ -52,15 +54,9 @@ const deployNftContract = async (account) => {
 	console.log('initialized??', await nftContract.init({
 		args: {
 			owner_id: subaccount_id,
-			metadata: {
-				some: 'data',
-				someMore: 'data',
-				evenMore: 'data',
-			},
 		},
 		amount: '10000000000000'
 	}))
-
 }
 
 const mint_nft = async (account) => {
@@ -73,32 +69,21 @@ const mint_nft = async (account) => {
 
 	console.log('Minting NFTs....')
 
-	for (let i = 0; i < 1; i++) {
+	let keys = Object.keys(nftData)
+
+	for (let i = 0; i < 100; i++) {
+		let rand = keys[Math.floor(Math.random() * 10) + 1]
+
+		while (rand === undefined) rand = keys[Math.floor(Math.random() * 10) + 1]
+
+		console.log('Index', i)
+		console.log('Rand', rand)
 
 		await nftContract.nft_mint({
 			args: {
 				token_id: i,
-				metadata: {
-					title: 'Explorer',
-					description: 'A random explorer from the exon system. Nothing remarkable, and no special skills',
-					media: media_url,
-					media_hash: crypto.createHash('sha256').update(media_url).digest('base64'),
-					copies: 1000,
-					extra: JSON.stringify({
-						type: 'character',
-						class: 'explorer',
-						stats: {
-							str: '3',
-							def: '0',
-							mag: '0',
-							luck: '0',
-							lvl: '1',
-							exp: '0'
-						},
-						special_effects: '0'
-					})
-				},
-				receiver_id: 'poopypants.testnet'
+				metadata: nftData[rand].metadata,
+				receiver_id: account_id
 			},
 			amount: '20390000000000000000000',
 
@@ -106,6 +91,15 @@ const mint_nft = async (account) => {
 
 		console.log('Minted Successfully ✅')
 	}
+
+	await nftContract.nft_mint({
+		args: {
+			token_id: 9000,
+			metadata: lvl_nft.metadata,
+			receiver_id: account_id
+		},
+		amount: '20390000000000000000000',
+	})
 }
 
 const send_nft = async (account) => {
@@ -114,13 +108,18 @@ const send_nft = async (account) => {
 		changeMethods: ['init', 'nft_mint', 'nft_token', 'nft_transfer_call', 'nft_resolve_transfer', 'nft_approve', 'nft_transfer_payout', 'nft_revoke', 'nft_revoke_call', 'nft_transfer']
 	})
 
-	await nftContract.nft_transfer({
-		args: {
-			receiver_id: 'pocket.testnet',
-			token_id: 0,
-		},
-		amount: '1'
-	})
+	for (let i = 0; i < 10; i++) {
+		let random = Math.floor(Math.random() * 120) + 1
+
+
+		await nftContract.nft_transfer({
+			args: {
+				receiver_id: 'pocket.testnet',
+				token_id: random,
+			},
+			amount: '1'
+		})
+	}
 
 	console.log('Sent! ✅')
 
@@ -226,8 +225,8 @@ const runscript = async () => {
 	// await deployNftContract(account)
 	// await mint_nft(account)
 	// await send_nft(account)
-	// await nftForOwner(account)
-	await increaseExp(account)
+	await nftForOwner(account)
+	// await increaseExp(account)
 
 
 	// GOLD Token

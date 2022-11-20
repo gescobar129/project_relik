@@ -198,6 +198,30 @@ export class Contract {
         return updatedcurrentNft
     }
 
+    @call({})
+    update_level_enemies({ enemy_one, enemy_two, enemy_three, boss }) {
+        const nfts = internalTokensForOwner({ contract: this, accountId: near.predecessorAccountId(), fromIndex: '0' });
+        let levelNft = null;
+
+        nfts.forEach(nft => {
+            if (JSON.parse(nft.metadata.extra).type === 'level') levelNft = nft;
+        })
+
+        assert(levelNft !== null, "Caller does not own a Relik NFT of type level")
+
+        near.log('Found Level NFT', levelNft)
+
+        this.tokenMetadataById.set(levelNft.token_id, {
+            ...levelNft.metadata,
+            extra: JSON.stringify({
+                enemy_one,
+                enemy_two,
+                enemy_three,
+                boss,
+            })
+        })
+
+    }
     /*
         ENUMERATION
     */

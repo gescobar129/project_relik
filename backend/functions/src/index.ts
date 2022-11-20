@@ -6,9 +6,9 @@ import { filter, find } from 'lodash';
 const nearAPI = require("near-api-js");
 
 
-const nftaccount_id = 'relikv9.poopypants.testnet'
-const account_id = 'poopypants.testnet'
-const ftaccount_id = 'goldtokenv2.poopypants.testnet'
+const nftaccount_id = 'nftv2.relik.testnet'
+const account_id = 'relik.testnet'
+const ftaccount_id = 'goldtoken.relik.testnet'
 
 const connectToNear = async () => {
   const { keyStores, connect } = nearAPI;
@@ -112,19 +112,37 @@ export const getGameAccount = functions.https.onRequest(async (request, response
   userData.nearBalance = await account.getAccountBalance();
 
   // get NFTs for account
-  const nfts = await contracts.nftContract.nft_tokens_for_owner({ account_id })
-  userData.ownedNfts.characters = filter(nfts, (nft: NFT) => {
-    const extraData = JSON.parse(nft.metadata.extra)
-    return extraData.type === 'character'
-  });
+  try {
+    const nfts = await contracts.nftContract.nft_tokens_for_owner({ account_id })
+    userData.ownedNfts.characters = filter(nfts, (nft: NFT) => {
+      const extraData = JSON.parse(nft.metadata.extra)
+      return extraData.type === 'character'
+    });
+    userData.ownedNfts.loot = filter(nfts, (nft: NFT) => {
+      const extraData = JSON.parse(nft.metadata.extra)
+      return extraData.type !== 'character'
+    })
 
-  userData.ownedNfts.loot = filter(nfts, (nft: NFT) => {
-    const extraData = JSON.parse(nft.metadata.extra)
-    return extraData.type !== 'character'
-  })
+  } catch (err) {
+    console.log('Not registered for NFTs!')
+  }
 
-  // get Gold Token Balance for account
-  userData.goldBalance = await contracts.ftContract.ft_balance_of({ account_id })
+
+  try {
+    // get Gold Token Balance for account
+    userData.goldBalance = await contracts.ftContract.ft_balance_of({ account_id })
+
+  } catch (err) {
+    console.log('Error! Account not registered for GoldToken!')
+    console.log('Registering....')
+
+    await contracts.ftContract.storage_deposit({
+      args: {
+        account_id
+      },
+      amount: '10000000000000000'
+    })
+  }
 
 
   response.status(200).send(userData)
@@ -243,9 +261,13 @@ export const onPickUpLoot = functions.https.onRequest(async (request, response) 
 })
 
 
+
 // Called on loading the Unity Game engine. This will allow the game
 // to know what NFTs are available for pick up, and which have been claimed by users
 // additionally, it returns the LVL NFT token to the engine, so that the engine
 // can populate the appropriate parameters
-// export const loadGameState = () => { }
+export const loadGameState = () => {
+
+
+}
 
