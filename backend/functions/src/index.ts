@@ -6,7 +6,7 @@ import { filter, find } from 'lodash';
 const nearAPI = require("near-api-js");
 
 
-const nftaccount_id = 'nftv2.relik.testnet'
+const nftaccount_id = 'nftv4.relik.testnet'
 const account_id = 'relik.testnet'
 const ftaccount_id = 'goldtoken.relik.testnet'
 
@@ -159,28 +159,34 @@ export const getGameAccount = functions.https.onRequest(async (request, response
  */
 
 export const onKillEnemy = functions.https.onRequest(async (request, response) => {
-  const token_id = request.query.token_id as string;
+  const token_id = Number(request.query.token_id) as number;
+  const account_id = request.query.account_id as string;
   const contracts = await loadContracts()
+
+  console.log('token_id', token_id)
 
   if (contracts.nftContract) {
     await contracts.nftContract.increase_exp({
-      args: {
-        token_id
-      }
-    })
+      token_id
+    },
+      '300000000000000'
+    )
 
     const nfts = await contracts.nftContract.nft_tokens_for_owner({ account_id })
+
+    console.log('nfts', nfts)
     const currentNft = find(nfts, { token_id });
 
     if (currentNft) {
       response.status(200).send(currentNft)
       return
-    }
+    } else {
 
-    response.status(500).send({
-      error: 'NFT not found!'
-    })
-    return
+      response.status(500).send({
+        error: 'NFT not found!'
+      })
+      return
+    }
   }
 
   response.status(500).send({
@@ -247,7 +253,7 @@ export const onPickUpLoot = functions.https.onRequest(async (request, response) 
       await contracts.nftContract.nft_transfer({
         args: {
           receiver_id: account_id,
-          token_id: token_id,
+          token_id: Number(token_id),
         },
         amount: '1'
       })
@@ -266,8 +272,8 @@ export const onPickUpLoot = functions.https.onRequest(async (request, response) 
 // to know what NFTs are available for pick up, and which have been claimed by users
 // additionally, it returns the LVL NFT token to the engine, so that the engine
 // can populate the appropriate parameters
-export const loadGameState = () => {
+// export const loadGameState = () => {
 
 
-}
+// }
 

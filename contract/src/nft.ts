@@ -17,7 +17,7 @@ export const NFT_STANDARD_NAME = "nep171";
 @NearBindgen({ requireInit: true })
 export class Contract {
     owner_id: string = "";
-    admin_id: string = "poopypants.testnet";
+    admin_id: string = "relik.testnet";
     tokensPerOwner: LookupMap = new LookupMap("tokensPerOwner");
     tokensById: LookupMap = new LookupMap("tokensById");
     tokenMetadataById: UnorderedMap = new UnorderedMap('tokenMetadataById');

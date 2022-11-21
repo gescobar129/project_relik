@@ -1,0 +1,4896 @@
+fileFormatVersion: 2
+guid: dc6bfd23bfd41e54babd5270d94f57c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3697217601675104687
+    second: Sci-fi Static Caves_0
+  - first:
+      213: -1986538786568658860
+    second: Sci-fi Static Caves_1
+  - first:
+      213: -8834695728298758881
+    second: Sci-fi Static Caves_2
+  - first:
+      213: -5135287008882648215
+    second: Sci-fi Static Caves_3
+  - first:
+      213: -3270579797374600246
+    second: Sci-fi Static Caves_4
+  - first:
+      213: 327014403479485590
+    second: Sci-fi Static Caves_5
+  - first:
+      213: 4717326837305659536
+    second: Sci-fi Static Caves_6
+  - first:
+      213: -9067297056227923218
+    second: Sci-fi Static Caves_7
+  - first:
+      213: -4795055456306007653
+    second: Sci-fi Static Caves_8
+  - first:
+      213: 5943823497967496027
+    second: Sci-fi Static Caves_9
+  - first:
+      213: -7118056531943224828
+    second: Sci-fi Static Caves_10
+  - first:
+      213: -7950570577626254338
+    second: Sci-fi Static Caves_11
+  - first:
+      213: 2982041305464943577
+    second: Sci-fi Static Caves_12
+  - first:
+      213: -8583912065091190951
+    second: Sci-fi Static Caves_13
+  - first:
+      213: 2472586433326897514
+    second: Sci-fi Static Caves_14
+  - first:
+      213: -833639933868926702
+    second: Sci-fi Static Caves_15
+  - first:
+      213: -5025052144923555624
+    second: Sci-fi Static Caves_16
+  - first:
+      213: -7098456141167004987
+    second: Sci-fi Static Caves_17
+  - first:
+      213: 6087147731721658789
+    second: Sci-fi Static Caves_18
+  - first:
+      213: -5216190164195499199
+    second: Sci-fi Static Caves_19
+  - first:
+      213: -8708391257777451793
+    second: Sci-fi Static Caves_20
+  - first:
+      213: -6111188151179928857
+    second: Sci-fi Static Caves_21
+  - first:
+      213: -6715227029699876253
+    second: Sci-fi Static Caves_22
+  - first:
+      213: 1438564484039684213
+    second: Sci-fi Static Caves_23
+  - first:
+      213: 8917996218367959151
+    second: Sci-fi Static Caves_24
+  - first:
+      213: 7022168489771445459
+    second: Sci-fi Static Caves_25
+  - first:
+      213: -2824296980552802314
+    second: Sci-fi Static Caves_26
+  - first:
+      213: 8769011894383587813
+    second: Sci-fi Static Caves_27
+  - first:
+      213: 6029716192125899758
+    second: Sci-fi Static Caves_28
+  - first:
+      213: 2100906818446576071
+    second: Sci-fi Static Caves_29
+  - first:
+      213: 7421863669263409072
+    second: Sci-fi Static Caves_30
+  - first:
+      213: 6112113399231220914
+    second: Sci-fi Static Caves_31
+  - first:
+      213: -8047583320450119021
+    second: Sci-fi Static Caves_32
+  - first:
+      213: 2876273026533019544
+    second: Sci-fi Static Caves_33
+  - first:
+      213: -8620148313984763009
+    second: Sci-fi Static Caves_34
+  - first:
+      213: 5016799636044191917
+    second: Sci-fi Static Caves_35
+  - first:
+      213: 2841363735989826261
+    second: Sci-fi Static Caves_36
+  - first:
+      213: 3844964518978053527
+    second: Sci-fi Static Caves_37
+  - first:
+      213: -3682390130547756707
+    second: Sci-fi Static Caves_38
+  - first:
+      213: -3900494815874565444
+    second: Sci-fi Static Caves_39
+  - first:
+      213: -3899016925763354857
+    second: Sci-fi Static Caves_40
+  - first:
+      213: -7080925496917328861
+    second: Sci-fi Static Caves_41
+  - first:
+      213: -3286688151653857864
+    second: Sci-fi Static Caves_42
+  - first:
+      213: -1822484717580625527
+    second: Sci-fi Static Caves_43
+  - first:
+      213: 7236545115263486446
+    second: Sci-fi Static Caves_44
+  - first:
+      213: -6439390784164413244
+    second: Sci-fi Static Caves_45
+  - first:
+      213: -2204375011030552403
+    second: Sci-fi Static Caves_46
+  - first:
+      213: -6385291288045547469
+    second: Sci-fi Static Caves_47
+  - first:
+      213: -7563440603862170130
+    second: Sci-fi Static Caves_48
+  - first:
+      213: -5584184846091389585
+    second: Sci-fi Static Caves_49
+  - first:
+      213: -2361926207350722615
+    second: Sci-fi Static Caves_50
+  - first:
+      213: 6929503099774806571
+    second: Sci-fi Static Caves_51
+  - first:
+      213: 2608434031989133346
+    second: Sci-fi Static Caves_52
+  - first:
+      213: -4647450174890464792
+    second: Sci-fi Static Caves_53
+  - first:
+      213: -8626548971924218561
+    second: Sci-fi Static Caves_54
+  - first:
+      213: -6524057043996034784
+    second: Sci-fi Static Caves_55
+  - first:
+      213: -487905150401915546
+    second: Sci-fi Static Caves_56
+  - first:
+      213: -5828337492858179645
+    second: Sci-fi Static Caves_57
+  - first:
+      213: 1267459696907391683
+    second: Sci-fi Static Caves_58
+  - first:
+      213: -5616039073860214984
+    second: Sci-fi Static Caves_59
+  - first:
+      213: 903122157516375042
+    second: Sci-fi Static Caves_60
+  - first:
+      213: -6338413180106010131
+    second: Sci-fi Static Caves_61
+  - first:
+      213: -6602287478359195518
+    second: Sci-fi Static Caves_62
+  - first:
+      213: -8265131828125040888
+    second: Sci-fi Static Caves_63
+  - first:
+      213: -4898106427991809065
+    second: Sci-fi Static Caves_64
+  - first:
+      213: 5267765813491455163
+    second: Sci-fi Static Caves_65
+  - first:
+      213: -778940924572934720
+    second: Sci-fi Static Caves_66
+  - first:
+      213: -7010462810552120037
+    second: Sci-fi Static Caves_67
+  - first:
+      213: 5552636434230675329
+    second: Sci-fi Static Caves_68
+  - first:
+      213: 4634636271628857897
+    second: Sci-fi Static Caves_69
+  - first:
+      213: -1747126038464483557
+    second: Sci-fi Static Caves_70
+  - first:
+      213: -8128384174353193114
+    second: Sci-fi Static Caves_71
+  - first:
+      213: -7141188856104334999
+    second: Sci-fi Static Caves_72
+  - first:
+      213: -6405573801752647974
+    second: Sci-fi Static Caves_73
+  - first:
+      213: 4553347993786965888
+    second: Sci-fi Static Caves_74
+  - first:
+      213: -429236791362253785
+    second: Sci-fi Static Caves_75
+  - first:
+      213: -5255267261460848388
+    second: Sci-fi Static Caves_76
+  - first:
+      213: -5990729439981228653
+    second: Sci-fi Static Caves_77
+  - first:
+      213: -5568170233881594490
+    second: Sci-fi Static Caves_78
+  - first:
+      213: -7810927436443746299
+    second: Sci-fi Static Caves_79
+  - first:
+      213: 3539196712757551361
+    second: Sci-fi Static Caves_80
+  - first:
+      213: -6802817479830032347
+    second: Sci-fi Static Caves_81
+  - first:
+      213: -8535334603540727115
+    second: Sci-fi Static Caves_82
+  - first:
+      213: -1335136039008710913
+    second: Sci-fi Static Caves_83
+  - first:
+      213: 2916444927264649174
+    second: Sci-fi Static Caves_84
+  - first:
+      213: -3332137448149216971
+    second: Sci-fi Static Caves_85
+  - first:
+      213: 5791732372285727348
+    second: Sci-fi Static Caves_86
+  - first:
+      213: 3613965909479607562
+    second: Sci-fi Static Caves_87
+  - first:
+      213: -5984520788969550928
+    second: Sci-fi Static Caves_88
+  - first:
+      213: -6748413298532603360
+    second: Sci-fi Static Caves_89
+  - first:
+      213: -6948111401782252753
+    second: Sci-fi Static Caves_90
+  - first:
+      213: 7649206776646925660
+    second: Sci-fi Static Caves_91
+  - first:
+      213: 4067795498983784775
+    second: Sci-fi Static Caves_92
+  - first:
+      213: -2484508444100282764
+    second: Sci-fi Static Caves_93
+  - first:
+      213: -3402609980499034562
+    second: Sci-fi Static Caves_94
+  - first:
+      213: -8536695387014742292
+    second: Sci-fi Static Caves_95
+  - first:
+      213: 6729400083537768130
+    second: Sci-fi Static Caves_96
+  - first:
+      213: 5647563308544700794
+    second: Sci-fi Static Caves_97
+  - first:
+      213: 3577152896525752500
+    second: Sci-fi Static Caves_98
+  - first:
+      213: 3327222993908655436
+    second: Sci-fi Static Caves_99
+  - first:
+      213: -5960686878577208147
+    second: Sci-fi Static Caves_100
+  - first:
+      213: 2561858559095833847
+    second: Sci-fi Static Caves_101
+  - first:
+      213: 3249735305112278651
+    second: Sci-fi Static Caves_102
+  - first:
+      213: 5837289940669789059
+    second: Sci-fi Static Caves_103
+  - first:
+      213: -148533375791339909
+    second: Sci-fi Static Caves_104
+  - first:
+      213: -2412172909002386817
+    second: Sci-fi Static Caves_105
+  - first:
+      213: -4879382275906526901
+    second: Sci-fi Static Caves_106
+  - first:
+      213: -5901399013830303177
+    second: Sci-fi Static Caves_107
+  - first:
+      213: 7919746337671837097
+    second: Sci-fi Static Caves_108
+  - first:
+      213: 8314489900869832393
+    second: Sci-fi Static Caves_109
+  - first:
+      213: -7852875262357675785
+    second: Sci-fi Static Caves_110
+  - first:
+      213: 8727240021820379182
+    second: Sci-fi Static Caves_111
+  - first:
+      213: -8535383368689533856
+    second: Sci-fi Static Caves_112
+  - first:
+      213: -5556585049870645913
+    second: Sci-fi Static Caves_113
+  - first:
+      213: 3374842050741184667
+    second: Sci-fi Static Caves_114
+  - first:
+      213: 793963310767032264
+    second: Sci-fi Static Caves_115
+  - first:
+      213: 3375726773358640895
+    second: Sci-fi Static Caves_116
+  - first:
+      213: 5187456343297935213
+    second: Sci-fi Static Caves_117
+  - first:
+      213: 1006155034595179631
+    second: Sci-fi Static Caves_118
+  - first:
+      213: 3656342967325773831
+    second: Sci-fi Static Caves_119
+  - first:
+      213: 7302782534802279027
+    second: Sci-fi Static Caves_120
+  - first:
+      213: -5229740600446447794
+    second: Sci-fi Static Caves_121
+  - first:
+      213: 7614673427875533550
+    second: Sci-fi Static Caves_122
+  - first:
+      213: 3306059680304675062
+    second: Sci-fi Static Caves_123
+  - first:
+      213: -2346402178234544835
+    second: Sci-fi Static Caves_124
+  - first:
+      213: 5911342673386125119
+    second: Sci-fi Static Caves_125
+  - first:
+      213: 5424207675728410238
+    second: Sci-fi Static Caves_126
+  - first:
+      213: -3355424158927944184
+    second: Sci-fi Static Caves_127
+  - first:
+      213: -8586042450342544111
+    second: Sci-fi Static Caves_128
+  - first:
+      213: 6393909589432914275
+    second: Sci-fi Static Caves_129
+  - first:
+      213: 1699758323008113808
+    second: Sci-fi Static Caves_130
+  - first:
+      213: -833012765790936073
+    second: Sci-fi Static Caves_131
+  - first:
+      213: -3196075253985101840
+    second: Sci-fi Static Caves_132
+  - first:
+      213: 9183935578010320612
+    second: Sci-fi Static Caves_133
+  - first:
+      213: 529432586605156443
+    second: Sci-fi Static Caves_134
+  - first:
+      213: 549513548444232414
+    second: Sci-fi Static Caves_135
+  - first:
+      213: -8302458324285880743
+    second: Sci-fi Static Caves_136
+  - first:
+      213: 511217253376575012
+    second: Sci-fi Static Caves_137
+  - first:
+      213: -9027599862103778341
+    second: Sci-fi Static Caves_138
+  - first:
+      213: -6804454447155597344
+    second: Sci-fi Static Caves_139
+  - first:
+      213: -1030454406474942675
+    second: Sci-fi Static Caves_140
+  - first:
+      213: -433639137875419450
+    second: Sci-fi Static Caves_141
+  - first:
+      213: -7390001967975137937
+    second: Sci-fi Static Caves_142
+  - first:
+      213: -6724109929161608737
+    second: Sci-fi Static Caves_143
+  - first:
+      213: 547484039044574414
+    second: Sci-fi Static Caves_144
+  - first:
+      213: -3371769917462811928
+    second: Sci-fi Static Caves_145
+  - first:
+      213: 1014958556631499079
+    second: Sci-fi Static Caves_146
+  - first:
+      213: -7124778855145129404
+    second: Sci-fi Static Caves_147
+  - first:
+      213: 9077714674359268443
+    second: Sci-fi Static Caves_148
+  - first:
+      213: 3042243397759391829
+    second: Sci-fi Static Caves_149
+  - first:
+      213: 512790278285023169
+    second: Sci-fi Static Caves_150
+  - first:
+      213: -7000241206202611624
+    second: Sci-fi Static Caves_151
+  - first:
+      213: -5048971960802113486
+    second: Sci-fi Static Caves_152
+  - first:
+      213: -7417787538622477462
+    second: Sci-fi Static Caves_153
+  - first:
+      213: -7307687149254147849
+    second: Sci-fi Static Caves_154
+  - first:
+      213: -5794410291816355455
+    second: Sci-fi Static Caves_155
+  - first:
+      213: -6364363235065914385
+    second: Sci-fi Static Caves_156
+  - first:
+      213: -6115854107911781980
+    second: Sci-fi Static Caves_157
+  - first:
+      213: 1273473626447018249
+    second: Sci-fi Static Caves_158
+  - first:
+      213: -2842824728134262075
+    second: Sci-fi Static Caves_159
+  - first:
+      213: 1530126745857886356
+    second: Sci-fi Static Caves_160
+  - first:
+      213: 4319839199819756096
+    second: Sci-fi Static Caves_161
+  - first:
+      213: -7161437920735256685
+    second: Sci-fi Static Caves_162
+  - first:
+      213: 2090756174918054164
+    second: Sci-fi Static Caves_163
+  - first:
+      213: -8216822837081259324
+    second: Sci-fi Static Caves_164
+  - first:
+      213: -85189972802744109
+    second: Sci-fi Static Caves_165
+  - first:
+      213: 6668656888765829983
+    second: Sci-fi Static Caves_166
+  - first:
+      213: 2255200984060484095
+    second: Sci-fi Static Caves_167
+  - first:
+      213: -4488473426271155262
+    second: Sci-fi Static Caves_168
+  - first:
+      213: 4623823384950673811
+    second: Sci-fi Static Caves_169
+  - first:
+      213: 7186423370807153068
+    second: Sci-fi Static Caves_170
+  - first:
+      213: 3374626720861532129
+    second: Sci-fi Static Caves_171
+  - first:
+      213: -8670734921896569142
+    second: Sci-fi Static Caves_172
+  - first:
+      213: 467157323683662665
+    second: Sci-fi Static Caves_173
+  - first:
+      213: 6749003905493246029
+    second: Sci-fi Static Caves_174
+  - first:
+      213: -138552074460015695
+    second: Sci-fi Static Caves_175
+  - first:
+      213: 2228060108868232467
+    second: Sci-fi Static Caves_176
+  - first:
+      213: -525797035060318559
+    second: Sci-fi Static Caves_177
+  - first:
+      213: 729976145191413575
+    second: Sci-fi Static Caves_178
+  - first:
+      213: -8916035785229376288
+    second: Sci-fi Static Caves_179
+  - first:
+      213: 1394427795745491471
+    second: Sci-fi Static Caves_180
+  - first:
+      213: 3403167132491563713
+    second: Sci-fi Static Caves_181
+  - first:
+      213: -4988459850118329784
+    second: Sci-fi Static Caves_182
+  - first:
+      213: 3078048843304123095
+    second: Sci-fi Static Caves_183
+  - first:
+      213: -4163859382783820124
+    second: Sci-fi Static Caves_184
+  - first:
+      213: 3668104177755432290
+    second: Sci-fi Static Caves_185
+  - first:
+      213: 4576628800503380610
+    second: Sci-fi Static Caves_186
+  - first:
+      213: 3053451076985554974
+    second: Sci-fi Static Caves_187
+  - first:
+      213: 4230642151165313169
+    second: Sci-fi Static Caves_188
+  - first:
+      213: 1600621138119054705
+    second: Sci-fi Static Caves_189
+  - first:
+      213: 2473943591992880917
+    second: Sci-fi Static Caves_190
+  - first:
+      213: -1299044981980572668
+    second: Sci-fi Static Caves_191
+  - first:
+      213: 4453220413672993709
+    second: Sci-fi Static Caves_192
+  - first:
+      213: 1400980845603156024
+    second: Sci-fi Static Caves_193
+  - first:
+      213: -4169128046605290659
+    second: Sci-fi Static Caves_194
+  - first:
+      213: 7249102030308603373
+    second: Sci-fi Static Caves_195
+  - first:
+      213: -337931282185233206
+    second: Sci-fi Static Caves_196
+  - first:
+      213: -6892103433456966748
+    second: Sci-fi Static Caves_197
+  - first:
+      213: 480278541124993931
+    second: Sci-fi Static Caves_198
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e65d21e28d0bcc0800000000000000
+      internalID: -3697217601675104687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4502a0eaf756e64e0800000000000000
+      internalID: -1986538786568658860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d67181b0bd46580800000000000000
+      internalID: -8834695728298758881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b1fdf5cabcbb8b0800000000000000
+      internalID: -5135287008882648215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbfae7a0019c92d0800000000000000
+      internalID: -3270579797374600246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cb4db0ed9c98400800000000000000
+      internalID: 327014403479485590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090550bd3cf477140800000000000000
+      internalID: 4717326837305659536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeae6923e5d7a2280800000000000000
+      internalID: -9067297056227923218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91f490c77a847db0800000000000000
+      internalID: -4795055456306007653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5be8fbcaf3bc7250800000000000000
+      internalID: 5943823497967496027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a006a1c45973d90800000000000000
+      internalID: -7118056531943224828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef33aeefe26e9a190800000000000000
+      internalID: -7950570577626254338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b7cd84c6526920800000000000000
+      internalID: 2982041305464943577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fbc01d471dfd880800000000000000
+      internalID: -8583912065091190951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6956e2c244605220800000000000000
+      internalID: 2472586433326897514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219992f95e05e64f0800000000000000
+      internalID: -833639933868926702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_16
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d84404b2bd634ab0800000000000000
+      internalID: -5025052144923555624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2fc04bfb73d7d90800000000000000
+      internalID: -7098456141167004987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_18
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a128946c94e97450800000000000000
+      internalID: 6087147731721658789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143ad36aeae5c97b0800000000000000
+      internalID: -5216190164195499199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_20
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecce034a44952780800000000000000
+      internalID: -8708391257777451793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea185541c2b03ba0800000000000000
+      internalID: -6111188151179928857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_22
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a23a46898bec2a0800000000000000
+      internalID: -6715227029699876253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570bda1c6cec6f310800000000000000
+      internalID: 1438564484039684213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f606910af4613cb70800000000000000
+      internalID: 8917996218367959151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_25
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dca4c15901c37160800000000000000
+      internalID: 7022168489771445459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff11f52cd41ec8d0800000000000000
+      internalID: -2824296980552802314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_27
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1b8e39bd9c1b970800000000000000
+      internalID: 8769011894383587813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d5101eeadda350800000000000000
+      internalID: 6029716192125899758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_29
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c944bbce9be72d10800000000000000
+      internalID: 2100906818446576071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf92d93fa1cff660800000000000000
+      internalID: 7421863669263409072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_31
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc0514d0c692d450800000000000000
+      internalID: 6112113399231220914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_32
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a4634ab9d315090800000000000000
+      internalID: -8047583320450119021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_33
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fc98714139ae720800000000000000
+      internalID: 2876273026533019544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_34
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b71c9a7c41f5880800000000000000
+      internalID: -8620148313984763009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da819b750b04f9540800000000000000
+      internalID: 5016799636044191917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_36
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2b951834d8e6720800000000000000
+      internalID: 2841363735989826261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_37
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795eaa7cbde0c5530800000000000000
+      internalID: 3844964518978053527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51fb48bfa585ecc0800000000000000
+      internalID: -3682390130547756707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_39
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba3b8371a8aed9c0800000000000000
+      internalID: -3900494815874565444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_40
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fb3ae83c8e3e9c0800000000000000
+      internalID: -3899016925763354857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_41
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c7c33e6cf7bbd90800000000000000
+      internalID: -7080925496917328861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_42
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5cf292a865362d0800000000000000
+      internalID: -3286688151653857864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_43
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98957082ecb35b6e0800000000000000
+      internalID: -1822484717580625527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_44
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee94e54017f5d6460800000000000000
+      internalID: 7236545115263486446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0c4fbf230b2a6a0800000000000000
+      internalID: -6439390784164413244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0b6c35b9c7861e0800000000000000
+      internalID: -2204375011030552403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33016ac7763e267a0800000000000000
+      internalID: -6385291288045547469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_48
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee58707f7d2490790800000000000000
+      internalID: -7563440603862170130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f657a90087df082b0800000000000000
+      internalID: -5584184846091389585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_50
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfac21e0a0c83fd0800000000000000
+      internalID: -2361926207350722615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_51
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aab0cea5a8a2060800000000000000
+      internalID: 6929503099774806571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22090c89ee4033420800000000000000
+      internalID: 2608434031989133346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9a35e60b0f08fb0800000000000000
+      internalID: -4647450174890464792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_54
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d12fa5a67584880800000000000000
+      internalID: -8626548971924218561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_55
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0293b363fa4e575a0800000000000000
+      internalID: -6524057043996034784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_56
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665d53ac9dc9a39f0800000000000000
+      internalID: -487905150401915546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_57
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfe81b1ee59d1fa0800000000000000
+      internalID: -5828337492858179645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_58
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c21a4901ebe69110800000000000000
+      internalID: 1267459696907391683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_59
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f19d5a732df02b0800000000000000
+      internalID: -5616039073860214984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_60
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2044c8b31d8888c00800000000000000
+      internalID: 903122157516375042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_61
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de190288bce6908a0800000000000000
+      internalID: -6338413180106010131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_62
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2800463d486ff54a0800000000000000
+      internalID: -6602287478359195518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_63
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ff4d2946a5c4d80800000000000000
+      internalID: -8265131828125040888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_64
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3ad7fa72e660cb0800000000000000
+      internalID: -4898106427991809065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4da19f81dda1940800000000000000
+      internalID: 5267765813491455163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_66
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdd0d92b55a035f0800000000000000
+      internalID: -778940924572934720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_67
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d44f18735d5be90800000000000000
+      internalID: -7010462810552120037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_68
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1870635fa6dee0d40800000000000000
+      internalID: 5552636434230675329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_69
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92234993229815040800000000000000
+      internalID: 4634636271628857897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_70
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f2d7bef16f0c7e0800000000000000
+      internalID: -1747126038464483557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66765c1d8ad223f80800000000000000
+      internalID: -8128384174353193114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_72
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9694ced229665ec90800000000000000
+      internalID: -7141188856104334999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_73
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad62cf3c094da17a0800000000000000
+      internalID: -6405573801752647974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_74
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fd86c20edb03f30800000000000000
+      internalID: 4553347993786965888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_75
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c0356996b0b0af0800000000000000
+      internalID: -429236791362253785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_76
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0e2e0f44a8117b0800000000000000
+      internalID: -5255267261460848388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_77
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39da1788057acdca0800000000000000
+      internalID: -5990729439981228653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_78
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68575987ca2e9b2b0800000000000000
+      internalID: -5568170233881594490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_79
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5000b6071e20a9390800000000000000
+      internalID: -7810927436443746299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_80
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101e426a8a0cd1130800000000000000
+      internalID: 3539196712757551361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_81
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520b9e28b898791a0800000000000000
+      internalID: -6802817479830032347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bafad476666c8980800000000000000
+      internalID: -8535334603540727115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_83
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe401ca8d4a87de0800000000000000
+      internalID: -1335136039008710913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_84
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df6998953b497820800000000000000
+      internalID: 2916444927264649174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_85
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5311a4435aed1c1d0800000000000000
+      internalID: -3332137448149216971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_86
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472a83c18ed506050800000000000000
+      internalID: 5791732372285727348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_87
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d47e8d8d2672230800000000000000
+      internalID: 3613965909479607562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_88
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb878ebc06b2fca0800000000000000
+      internalID: -5984520788969550928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_89
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a217f0cd1d852a0800000000000000
+      internalID: -6748413298532603360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_90
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b6de42e79539f90800000000000000
+      internalID: -6948111401782252753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_91
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dfc8f3901772a60800000000000000
+      internalID: 7649206776646925660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_92
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7418cd74476b37830800000000000000
+      internalID: 4067795498983784775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_93
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476b1fbcbb0458dd0800000000000000
+      internalID: -2484508444100282764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_94
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ef723204087c0d0800000000000000
+      internalID: -3402609980499034562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_95
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee354d56c0978980800000000000000
+      internalID: -8536695387014742292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_96
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea0cad8b1a36d50800000000000000
+      internalID: 6729400083537768130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_97
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71365438ec206e40800000000000000
+      internalID: 5647563308544700794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_98
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b85da85b9994a130800000000000000
+      internalID: 3577152896525752500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_99
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45ef604fabac2e20800000000000000
+      internalID: 3327222993908655436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_100
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4d2117dd2674da0800000000000000
+      internalID: -5960686878577208147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_101
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f483b349cc8d8320800000000000000
+      internalID: 2561858559095833847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_102
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76534bca01691d20800000000000000
+      internalID: 3249735305112278651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_103
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38375941648320150800000000000000
+      internalID: 5837289940669789059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_104
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76eaa28ead40fdf0800000000000000
+      internalID: -148533375791339909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_105
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72971ef48d368ed0800000000000000
+      internalID: -2412172909002386817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_106
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4121411ca3f84cb0800000000000000
+      internalID: -4879382275906526901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_107
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732edc62dd40a1ea0800000000000000
+      internalID: -5901399013830303177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_108
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a57120655798ed60800000000000000
+      internalID: 7919746337671837097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_109
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce4be54380036370800000000000000
+      internalID: 8314489900869832393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_110
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0e7b12e8bf40390800000000000000
+      internalID: -7852875262357675785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_111
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e201d2a9f826d1970800000000000000
+      internalID: 8727240021820379182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_112
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cbb7f6c0a3c8980800000000000000
+      internalID: -8535383368689533856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_113
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c632565b03e2b0800000000000000
+      internalID: -5556585049870645913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_114
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98aa77e6f8d5de20800000000000000
+      internalID: 3374842050741184667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c746feac69b40b00800000000000000
+      internalID: 793963310767032264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_116
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe31d07d9df8de20800000000000000
+      internalID: 3375726773358640895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_117
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ce165f0c8df740800000000000000
+      internalID: 5187456343297935213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_118
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c34025ca496fd00800000000000000
+      internalID: 1006155034595179631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_119
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70053708e80fdb230800000000000000
+      internalID: 3656342967325773831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_120
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a01da0602b85560800000000000000
+      internalID: 7302782534802279027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_121
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f83fad1aa3c67b0800000000000000
+      internalID: -5229740600446447794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_122
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2902d6321cca960800000000000000
+      internalID: 7614673427875533550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_123
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f83dc253cb71ed20800000000000000
+      internalID: 3306059680304675062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_124
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d802296a7ef6fd0800000000000000
+      internalID: -2346402178234544835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_125
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37b9c087de490250800000000000000
+      internalID: 5911342673386125119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_126
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763db37428a64b40800000000000000
+      internalID: 5424207675728410238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_127
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806065851832f61d0800000000000000
+      internalID: -3355424158927944184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d78e8d1ef38d880800000000000000
+      internalID: -8586042450342544111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_129
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361dc1c25eabbb850800000000000000
+      internalID: 6393909589432914275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_130
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c89e66031c69710800000000000000
+      internalID: 1699758323008113808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_131
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f36aa19d4b8074f0800000000000000
+      internalID: -833012765790936073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_132
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f73dc27d7245a3d0800000000000000
+      internalID: -3196075253985101840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_133
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee7067efb4e37f70800000000000000
+      internalID: 9183935578010320612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_134
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58dd19e12ce85700800000000000000
+      internalID: 529432586605156443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_135
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda684e29a340a700800000000000000
+      internalID: 549513548444232414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_136
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9568472742eb7cc80800000000000000
+      internalID: -8302458324285880743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_137
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426cf862265381700800000000000000
+      internalID: 511217253376575012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_138
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb50f471c587b280800000000000000
+      internalID: -9027599862103778341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_139
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efa6fa5bb8b191a0800000000000000
+      internalID: -6804454447155597344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_140
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2733d84d2713b1f0800000000000000
+      internalID: -1030454406474942675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_141
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce9a3a60876bf9f0800000000000000
+      internalID: -433639137875419450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_142
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d77613d50717990800000000000000
+      internalID: -7390001967975137937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_143
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd135a135a92fa2a0800000000000000
+      internalID: -6724109929161608737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_144
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecca27335dd099700800000000000000
+      internalID: 547484039044574414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_145
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eae74ddf111531d0800000000000000
+      internalID: -3371769917462811928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_146
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74183c50e6bd51e00800000000000000
+      internalID: 1014958556631499079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_147
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a3cd34163bf1d90800000000000000
+      internalID: -7124778855145129404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_148
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54f88986658afd70800000000000000
+      internalID: 9077714674359268443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_149
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558d9b37048383a20800000000000000
+      internalID: 3042243397759391829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_150
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7d37d8a0ccd1700800000000000000
+      internalID: 512790278285023169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_151
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858cd3a36b52ade90800000000000000
+      internalID: -7000241206202611624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_152
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2388b7390c27ee9b0800000000000000
+      internalID: -5048971960802113486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_153
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b8615e889be0990800000000000000
+      internalID: -7417787538622477462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_154
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0050b6141e59a90800000000000000
+      internalID: -7307687149254147849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_155
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1892b692a8e169fa0800000000000000
+      internalID: -5794410291816355455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_156
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb17588b5d3da7a0800000000000000
+      internalID: -6364363235065914385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_157
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a10ecf871f102ba0800000000000000
+      internalID: -6115854107911781980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_158
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909f33f14894ca110800000000000000
+      internalID: 1273473626447018249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c26cd0c8f14c88d0800000000000000
+      internalID: -2842824728134262075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_160
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4980f2c1b2a1c3510800000000000000
+      internalID: 1530126745857886356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_161
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04270106dd623fb30800000000000000
+      internalID: 4319839199819756096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_162
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f109d67267d9c90800000000000000
+      internalID: -7161437920735256685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_163
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411f1fde9abd30d10800000000000000
+      internalID: 2090756174918054164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_164
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2447d0a2bf7fd80800000000000000
+      internalID: -8216822837081259324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_165
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0daaccb2851def0800000000000000
+      internalID: -85189972802744109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_166
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5359d7bb14db8c50800000000000000
+      internalID: 6668656888765829983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_167
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95900b8551c4f10800000000000000
+      internalID: 2255200984060484095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_168
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbc353233db5b1c0800000000000000
+      internalID: -4488473426271155262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_169
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391112cdede1b2040800000000000000
+      internalID: 4623823384950673811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_170
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1968efafd4bb360800000000000000
+      internalID: 7186423370807153068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_171
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef2e728f1515de20800000000000000
+      internalID: 3374626720861532129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_172
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d7ce278c5ba780800000000000000
+      internalID: -8670734921896569142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_173
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b036c5c1dab7600800000000000000
+      internalID: 467157323683662665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_174
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4026a65b4749ad50800000000000000
+      internalID: 6749003905493246029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_175
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3dae25f93c31ef0800000000000000
+      internalID: -138552074460015695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_176
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3152f4f3dd8abee10800000000000000
+      internalID: 2228060108868232467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_177
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aea645e16ef3b8f0800000000000000
+      internalID: -525797035060318559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_178
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747a4acbf65612a00800000000000000
+      internalID: 729976145191413575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_179
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e46bb841b0e34480800000000000000
+      internalID: -8916035785229376288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_180
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a475631b00a5310800000000000000
+      internalID: 1394427795745491471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_181
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2c17be97a7a3f20800000000000000
+      internalID: 3403167132491563713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_182
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a0661423e65cab0800000000000000
+      internalID: -4988459850118329784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_183
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dab1726d1d67ba20800000000000000
+      internalID: 3078048843304123095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_184
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae3e72d3fff636c0800000000000000
+      internalID: -4163859382783820124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_185
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2652d32b059b7e230800000000000000
+      internalID: 3668104177755432290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_186
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a73d265a3738f30800000000000000
+      internalID: 4576628800503380610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_187
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1802ce9399006a20800000000000000
+      internalID: 3053451076985554974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_188
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190c0002f9246ba30800000000000000
+      internalID: 4230642151165313169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_189
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1755195d17c863610800000000000000
+      internalID: 1600621138119054705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_190
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fe613e696355220800000000000000
+      internalID: 2473943591992880917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_191
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4045bc5b87dd8fde0800000000000000
+      internalID: -1299044981980572668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_192
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da33f7f3f540dcd30800000000000000
+      internalID: 4453220413672993709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_193
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8307d4708a8417310800000000000000
+      internalID: 1400980845603156024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_194
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5339fe61284426c0800000000000000
+      internalID: -4169128046605290659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_195
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de57b11a3ebf99460800000000000000
+      internalID: 7249102030308603373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_196
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc5bde0a4d6f4bf0800000000000000
+      internalID: -337931282185233206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_197
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a32c8571745a50a0800000000000000
+      internalID: -6892103433456966748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Static Caves_198
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b838ffcd9ca4aa600800000000000000
+      internalID: 480278541124993931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
