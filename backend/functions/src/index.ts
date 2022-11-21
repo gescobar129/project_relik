@@ -11,14 +11,29 @@ const admin_account_id = 'relik.testnet'
 const ftaccount_id = 'goldtoken.relik.testnet'
 
 const connectToNear = async () => {
-  const { keyStores, connect } = nearAPI;
+  // const { keyStores, connect } = nearAPI;
 
   // creates a keyStore that searches for keys in .near-credentials
   // requires credentials stored locally by using a NEAR-CLI command: `near login` 
-  const homedir = require("os").homedir();
-  const CREDENTIALS_DIR = ".near-credentials";
-  const credentialsPath = require("path").join(homedir, CREDENTIALS_DIR);
-  const myKeyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
+  // const homedir = require("os").homedir();
+  // const CREDENTIALS_DIR = "../.near-credentials";
+  // const credentialsPath = require("path").join(homedir, CREDENTIALS_DIR);
+  // console.log('credentials path', credentialsPath)
+  // const myKeyStore = new keyStores.UnencryptedFileSystemKeyStore(CREDENTIALS_DIR);
+
+
+  const { KeyPair, keyStores, connect } = require("near-api-js");
+  // const fs = require("fs");
+  // const homedir = require("os").homedir();
+
+  const ACCOUNT_ID = "relik.testnet";  // NEAR account tied to the keyPair
+  const NETWORK_ID = "testnet";
+  // path to your custom keyPair location (ex. function access key for example account)
+  // const KEY_PATH = '.near-credentials/testnet/relik.testnet.json';
+
+  // const credentials = JSON.parse(fs.readFileSync(KEY_PATH));
+  const myKeyStore = new keyStores.InMemoryKeyStore();
+  myKeyStore.setKey(NETWORK_ID, ACCOUNT_ID, KeyPair.fromString("ed25519:2CHpF95YC894rYS6EiMqAVH8CKmXqRnuNH6EjJQ7cmD7Q4TqZ1J734iaoGhUMGoc97GWXPQEG1pyHG8SUGPx6pWM"));
 
   const connectionConfig = {
     networkId: "testnet",
@@ -131,7 +146,7 @@ export const getGameAccount = functions.https.onRequest(async (request, response
 
     const newNft = {
       // TODO: Come up with a better way to create and mint new tokens using totalSupply
-      token_id: adminTokens.length * 100 + 1,
+      token_id: adminTokens.length * (Math.floor(Math.random() * 499) + 1) + Math.floor(Math.random() * 9999) + 1,
       metadata: {
         title: 'Raider',
         description: 'Raiders have the unique ability to jump through Dimensions. No one really knows where they come from. They just appear, take what they want and then disappear.',

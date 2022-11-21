@@ -39,6 +39,7 @@ module.exports = {
     "@typescript-eslint/no-var-requires": 0,
     "padded-blocks": 0,
     "@typescript-eslint/ban-ts-comment": 0,
-    "no-multiple-empty-lines": 0
+    "no-multiple-empty-lines": 0,
+    "no-multi-spaces": 0
   },
 };
