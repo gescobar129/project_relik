@@ -132,6 +132,7 @@ const nftForOwner = async (account) => {
 	})
 
 	console.log('NFTs FOr Owner', await nftContract.nft_tokens_for_owner({ args: { account_id: 'cardi.testnet' } }))
+	console.log('SUPPLY', await nftContract.nft_total_supply())
 }
 
 
@@ -228,8 +229,8 @@ const runscript = async () => {
 	// await deployNftContract(account)
 	// await mint_nft(account)
 	// await send_nft(account)
-	// await nftForOwner(account)
-	await increaseExp(account)
+	await nftForOwner(account)
+	// await increaseExp(account)
 
 
 	// GOLD Token
