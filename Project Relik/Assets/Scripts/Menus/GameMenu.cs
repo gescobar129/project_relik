@@ -54,12 +54,25 @@ public class GameMenu : MonoBehaviour
 
     public async void ConnectWallet()
     {
-        Application.OpenURL(/*"https://localhost:3001/index.html"*/ "https://sparkling-griffin-09b3bd.netlify.app/wallet-login");
+        walletId = PlayerPrefs.GetString("Wallet Id", "");
 
-        walletIdServerTask = Task.Run(WalletServer);
-        await walletIdServerTask;
+        if (walletId == "")
+        {
+            Application.OpenURL(/*"https://localhost:3001/index.html"*/ "https://sparkling-griffin-09b3bd.netlify.app/wallet-login");
 
-        EnablePlayMode();
+            walletIdServerTask = Task.Run(WalletServer);
+            await walletIdServerTask;
+
+            EnablePlayMode();
+        }
+        else
+        {
+            PlayerPrefs.SetString("Wallet Id", "");
+            playBtn.gameObject.SetActive(false);
+            walletStatus.gameObject.SetActive(false);
+            walletIdText.text = "Wallet Id: ";
+            connectWalletBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Connect Wallet";
+        }
     }
 
     private void EnablePlayMode()
@@ -67,8 +80,8 @@ public class GameMenu : MonoBehaviour
         if (walletId != null)
         {
             playBtn.gameObject.SetActive(true);
-            walletStatus.gameObject.SetActive(false);
-            connectWalletBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Connect New Wallet";
+            walletStatus.gameObject.SetActive(true);
+            connectWalletBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Disconnect Wallet";
             walletIdText.text = "Wallet Id: " + walletId;
             PlayerPrefs.SetString("Wallet Id", walletId);
         }

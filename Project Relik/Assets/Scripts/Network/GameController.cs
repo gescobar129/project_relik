@@ -22,6 +22,15 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private PauseMenu pauseMenu = null;
 
+    [SerializeField]
+    private GameObject floatTextEffect = null;
+
+    [SerializeField]
+    private Transform statusPoint = null;
+
+    [SerializeField]
+    private TextMeshProUGUI walletText = null;
+
     private WalletData walletData;
     private string walletId;
     private string characterToken;
@@ -37,10 +46,12 @@ public class GameController : MonoBehaviour
     }
     void Start()
     {
-        //Application.OpenURL("https://sparkling-griffin-09b3bd.netlify.app/wallet-login");
+        
         UpdatePlayerWalletStats();
         GlobalEventSystem.GetInstance().AddListener(ObjectKilledGlobalEvent.GetInstance(), ObjectKilled);
         GlobalEventSystem.GetInstance().AddListener(ItemCollectedGlobalEvent.GetInstance(), LootPickedUp);
+
+        walletText.text = walletId;
     }
     private void OnEnable()
     {
@@ -73,6 +84,10 @@ public class GameController : MonoBehaviour
             {
                 PostPickUpGold();
             }
+            else if (args.collected.GetComponent<Weapon>() != null)
+            {
+                PostPickUpLoot();
+            }
         }
     }
 
@@ -93,17 +108,39 @@ public class GameController : MonoBehaviour
         string rawJson = await CallBackend(url);
          
         walletData.ownedNfts.characters[0] = JsonConvert.DeserializeObject<NftItem>(rawJson);
+        var oldPlayer = PlayerCharacter;
         PlayerCharacter = JsonConvert.DeserializeObject<Character>(walletData.ownedNfts.characters[0].metadata.extra);
+        if (oldPlayer.stats.lvl < PlayerCharacter.stats.lvl)
+        {
+            var newText = Instantiate(floatTextEffect, statusPoint);
+            newText.GetComponent<TextMeshPro>().text = "Level Up";
+        }
         UpdateUI();
     }
 
     private async void PostPickUpGold()
     {
+        var newText = Instantiate(floatTextEffect, statusPoint);
+        newText.GetComponent<TextMeshPro>().text = "+10 gold";
         string url = BACKEND_URL + "onPickUpLoot" + "?gold_amount=10" + "&account_id=" + walletId;
         string rawJson = await CallBackend(url);
         var loot = JsonConvert.DeserializeObject<LootPickup>(rawJson);
         walletData.goldBalance = loot.totalBalance;
         UpdateUI();
+
+    }
+
+    private async void PostPickUpLoot()
+    {
+        var newText = Instantiate(floatTextEffect, statusPoint);
+        newText.GetComponent<TextMeshPro>().text = "Loot added to wallet";
+
+        string url = BACKEND_URL + "onPickUpLoot" + "?token_id=99999" + "&account_id=" + walletId + "&gold_amount=0";
+        string rawJson = await CallBackend(url);
+        var loot = JsonConvert.DeserializeObject<LootPickup>(rawJson);
+        walletData.goldBalance = loot.totalBalance;
+        UpdateUI();
+        
     }
 
     private async Task<string> CallBackend(string url)

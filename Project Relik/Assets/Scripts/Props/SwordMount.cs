@@ -22,6 +22,11 @@ public class SwordMount : MonoBehaviour
         {
             wielder.CurrentWeapon = sword;
             sword.Float = false;
+
+            var itemEvent = new ItemCollectedGlobalEvent.EventArgs();
+            itemEvent.collected = sword.gameObject;
+            itemEvent.collector = collision.gameObject;
+            GlobalEventSystem.GetInstance().TriggerEvent(ItemCollectedGlobalEvent.GetInstance(), itemEvent);
         }
     }
 }
