@@ -7,7 +7,7 @@ const nearAPI = require("near-api-js");
 
 
 const nftaccount_id = 'nftv4.relik.testnet'
-const account_id = 'relik.testnet'
+const admin_account_id = 'relik.testnet'
 const ftaccount_id = 'goldtoken.relik.testnet'
 
 const connectToNear = async () => {
@@ -38,7 +38,7 @@ const connectToNear = async () => {
 const loadContracts = async () => {
   const { Contract } = nearAPI;
   const nearConnection = await connectToNear()
-  const account = await nearConnection.account(account_id);
+  const account = await nearConnection.account(admin_account_id);
 
   const nftContract = new Contract(
     account,
@@ -57,9 +57,6 @@ const loadContracts = async () => {
       changeMethods: ['init', 'storage_deposit', 'ft_transfer', 'ft_transfer_call'],
     }
   )
-
-  console.log('nftContract', nftContract)
-  console.log('ftContract', ftContract)
 
   return {
     nftContract,
@@ -88,17 +85,15 @@ const loadContracts = async () => {
 export const getGameAccount = functions.https.onRequest(async (request, response) => {
   const nearConnection = await connectToNear()
   // Request simply uses an account_id query param
-  const account_id = request.query.account_id as string;
+  const user_account_id = request.query.account_id as string;
   const contracts = await loadContracts()
 
-  if (!account_id) {
+  if (!user_account_id) {
     throw new functions.https.HttpsError('invalid-argument', 'account_id is undefined. Please send a valid account_id with your request')
   }
 
-  console.log('response', response)
-
   const userData: GetAccountResponse = {
-    accountId: account_id,
+    accountId: user_account_id,
     nearBalance: 0,
     goldBalance: 0,
     ownedNfts: {
@@ -108,12 +103,14 @@ export const getGameAccount = functions.https.onRequest(async (request, response
   }
 
   // get NEAR balance
-  const account = await nearConnection.account(account_id)
+  const account = await nearConnection.account(user_account_id)
   userData.nearBalance = await account.getAccountBalance();
 
   // get NFTs for account
   try {
-    const nfts = await contracts.nftContract.nft_tokens_for_owner({ account_id })
+    const nfts = await contracts.nftContract.nft_tokens_for_owner({ account_id: user_account_id })
+    console.log('nfts for owner', nfts.length)
+
     userData.ownedNfts.characters = filter(nfts, (nft: NFT) => {
       const extraData = JSON.parse(nft.metadata.extra)
       return extraData.type === 'character'
@@ -128,9 +125,47 @@ export const getGameAccount = functions.https.onRequest(async (request, response
   }
 
 
+  if (!userData.ownedNfts.characters.length) {
+    // Give the player
+    const adminTokens = await contracts.nftContract.nft_tokens_for_owner({ account_id: admin_account_id })
+
+    const newNft = {
+      // TODO: Come up with a better way to create and mint new tokens using totalSupply
+      token_id: adminTokens.length * 100 + 1,
+      metadata: {
+        title: 'Raider',
+        description: 'Raiders have the unique ability to jump through Dimensions. No one really knows where they come from. They just appear, take what they want and then disappear.',
+        media: 'https://firebasestorage.googleapis.com/v0/b/dao-v-player.appspot.com/o/raider.png?alt=media&token=21c57228-898a-4f58-8c3e-9df1fa93835c',
+        copies: 1,
+        extra: JSON.stringify({
+          type: 'character',
+          stats: {
+            str: '5',
+            def: '5',
+            mag: '5',
+            luck: '1',
+            lvl: '1',
+            exp: '0'
+          },
+          special_effects: '0'
+        })
+      },
+      receiver_id: user_account_id
+    }
+
+    await contracts.nftContract.nft_mint({
+      args: newNft,
+      amount: '20390000000000000000000'
+    })
+
+    // @ts-ignore
+    userData.ownedNfts.characters = [{ ...newNft, owner_id: user_account_id }]
+  }
+
+
   try {
     // get Gold Token Balance for account
-    userData.goldBalance = await contracts.ftContract.ft_balance_of({ account_id })
+    userData.goldBalance = await contracts.ftContract.ft_balance_of({ account_id: user_account_id })
 
   } catch (err) {
     console.log('Error! Account not registered for GoldToken!')
@@ -138,13 +173,13 @@ export const getGameAccount = functions.https.onRequest(async (request, response
 
     await contracts.ftContract.storage_deposit({
       args: {
-        account_id
+        account_id: user_account_id
       },
       amount: '10000000000000000'
     })
   }
 
-
+  console.log('WOOOOOOOOOOOOOOO')
   response.status(200).send(userData)
 })
 
@@ -163,7 +198,6 @@ export const onKillEnemy = functions.https.onRequest(async (request, response) =
   const account_id = request.query.account_id as string;
   const contracts = await loadContracts()
 
-  console.log('token_id', token_id)
 
   if (contracts.nftContract) {
     await contracts.nftContract.increase_exp({
@@ -174,7 +208,6 @@ export const onKillEnemy = functions.https.onRequest(async (request, response) =
 
     const nfts = await contracts.nftContract.nft_tokens_for_owner({ account_id })
 
-    console.log('nfts', nfts)
     const currentNft = find(nfts, { token_id });
 
     if (currentNft) {
