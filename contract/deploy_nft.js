@@ -5,7 +5,7 @@ import path from 'path'
 import crypto from 'crypto';
 
 import nftData, { lvl_nft } from "./nftData.js";
-
+console.log('DEFAULT GAS', nearAPI.DEFAULT_FUNCTION_CALL_GAS.toString())
 const connectToNear = async () => {
 	const { keyStores, connect } = nearAPI;
 
@@ -28,7 +28,7 @@ const connectToNear = async () => {
 	return nearConnection
 }
 
-let subaccount_id = 'nftv3.relik.testnet'
+let subaccount_id = 'nftv4.relik.testnet'
 let account_id = 'relik.testnet'
 let token_account = 'goldtoken.relik.testnet'
 
@@ -203,11 +203,14 @@ const increaseExp = async (account) => {
 		changeMethods: ['init', 'increase_exp', 'nft_mint', 'nft_token', 'nft_transfer_call', 'nft_resolve_transfer', 'nft_approve', 'nft_transfer_payout', 'nft_revoke', 'nft_revoke_call', 'nft_transfer']
 	})
 
-	await nftContract.increase_exp({
-		args: {
-			token_id: 0
-		}
-	})
+	// await nftContract.increase_exp({
+	// 	args: {
+	// 		token_id: 35
+	// 	},
+	// 	gas: '5000000000000'
+	// })
+
+	await nftContract.increase_exp({ token_id: 35 }, '300000000000000')
 
 }
 
@@ -225,8 +228,8 @@ const runscript = async () => {
 	// await deployNftContract(account)
 	// await mint_nft(account)
 	// await send_nft(account)
-	await nftForOwner(account)
-	// await increaseExp(account)
+	// await nftForOwner(account)
+	await increaseExp(account)
 
 
 	// GOLD Token
