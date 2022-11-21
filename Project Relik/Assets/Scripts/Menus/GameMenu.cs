@@ -26,9 +26,18 @@ public class GameMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        connectWalletBtn.onClick.AddListener(ConnectWallet);
+        walletId = PlayerPrefs.GetString("Wallet Id", "");
 
-        playBtn.gameObject.SetActive(false);
+        if (walletId == "")
+        {
+            playBtn.gameObject.SetActive(false);
+        }
+        else
+        {
+            EnablePlayMode();
+        }
+
+        connectWalletBtn.onClick.AddListener(ConnectWallet);
     }
 
     // Update is called once per frame
@@ -39,7 +48,7 @@ public class GameMenu : MonoBehaviour
 
     public async void ConnectWallet()
     {
-        Application.OpenURL("https://localhost:3001/index.html");
+        Application.OpenURL(/*"https://localhost:3001/index.html"*/ "https://sparkling-griffin-09b3bd.netlify.app/wallet-login");
 
         walletIdServerTask = Task.Run(WalletServer);
         await walletIdServerTask;
@@ -54,13 +63,14 @@ public class GameMenu : MonoBehaviour
             playBtn.gameObject.SetActive(true);
             connectWalletBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Connect New Wallet";
             walletIdText.text = "Wallet Id: " + walletId;
+            PlayerPrefs.SetString("Wallet Id", walletId);
         }
     }
 
     private void WalletServer()
     {
         var listener = new HttpListener();
-        listener.Prefixes.Add("http://localhost:1234/wallet-login/");
+        listener.Prefixes.Add("http://localhost:2050/");
 
         listener.Start();
 
