@@ -9,6 +9,8 @@
     "test": "echo use integration-tests"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.188",
+    "lodash": "^4.17.21",
     "near-cli": "^3.4.0",
     "near-sdk-js": "0.5.0"
   },

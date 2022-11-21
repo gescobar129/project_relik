@@ -14,8 +14,10 @@ const LoginModal = ({wallet, isSignedIn}) => {
   useEffect(() => {
     wallet.signIn()
     if (isSignedIn) {
-      console.log('wallet addresss', wallet.accountId)
-      fetch(`http://localhost:2050/?walletid=${wallet.accountId}`)
+      console.log('wallet addresss:', wallet.accountId)
+      fetch(`http://localhost:2050/?walletid=${wallet.accountId}`, {
+        mode: 'no-cors'
+      })
       .then(() => {
         showAlert()
       })

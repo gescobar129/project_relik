@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: d2885590453ebd04e82cfd94ca1cb2fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6071313554135809521
+    second: Uni Art Ground Tiles_0
+  - first:
+      213: 2554601342449737731
+    second: Uni Art Ground Tiles_1
+  - first:
+      213: 4652886053201769986
+    second: Uni Art Ground Tiles_2
+  - first:
+      213: -8577743633867629404
+    second: Uni Art Ground Tiles_3
+  - first:
+      213: 4715635938643632080
+    second: Uni Art Ground Tiles_4
+  - first:
+      213: 5261141560248880789
+    second: Uni Art Ground Tiles_5
+  - first:
+      213: -4257542828242485187
+    second: Uni Art Ground Tiles_6
+  - first:
+      213: 246586008704416413
+    second: Uni Art Ground Tiles_7
+  - first:
+      213: 4129860068068522263
+    second: Uni Art Ground Tiles_8
+  - first:
+      213: 5917824329121310449
+    second: Uni Art Ground Tiles_9
+  - first:
+      213: -1173224080676202620
+    second: Uni Art Ground Tiles_10
+  - first:
+      213: -3847982130192884972
+    second: Uni Art Ground Tiles_11
+  - first:
+      213: -9139142038763054912
+    second: Uni Art Ground Tiles_12
+  - first:
+      213: 1388220805574586452
+    second: Uni Art Ground Tiles_13
+  - first:
+      213: 6718024613065321387
+    second: Uni Art Ground Tiles_14
+  - first:
+      213: 4721014419451363809
+    second: Uni Art Ground Tiles_15
+  - first:
+      213: -6263923295184470787
+    second: Uni Art Ground Tiles_16
+  - first:
+      213: 788339619119856151
+    second: Uni Art Ground Tiles_17
+  - first:
+      213: -6571660674554753290
+    second: Uni Art Ground Tiles_18
+  - first:
+      213: -4755261754505508273
+    second: Uni Art Ground Tiles_19
+  - first:
+      213: 5240247641611966555
+    second: Uni Art Ground Tiles_20
+  - first:
+      213: -1475919320311107800
+    second: Uni Art Ground Tiles_21
+  - first:
+      213: 3312122219492311591
+    second: Uni Art Ground Tiles_22
+  - first:
+      213: 2858810520294354260
+    second: Uni Art Ground Tiles_23
+  - first:
+      213: 4634743844497212562
+    second: Uni Art Ground Tiles_24
+  - first:
+      213: 1561145841477545636
+    second: Uni Art Ground Tiles_25
+  - first:
+      213: 7352051698014726464
+    second: Uni Art Ground Tiles_26
+  - first:
+      213: 7313408920416256248
+    second: Uni Art Ground Tiles_27
+  - first:
+      213: 1377450162435843605
+    second: Uni Art Ground Tiles_28
+  - first:
+      213: 5831612380640283258
+    second: Uni Art Ground Tiles_29
+  - first:
+      213: -7984856709036078588
+    second: Uni Art Ground Tiles_30
+  - first:
+      213: 6575845170429614867
+    second: Uni Art Ground Tiles_31
+  - first:
+      213: 4147927597825790809
+    second: Uni Art Ground Tiles_32
+  - first:
+      213: 2351924950718563040
+    second: Uni Art Ground Tiles_33
+  - first:
+      213: -5851164707817410670
+    second: Uni Art Ground Tiles_34
+  - first:
+      213: -1827795499067888685
+    second: Uni Art Ground Tiles_35
+  - first:
+      213: -1165077025861929728
+    second: Uni Art Ground Tiles_36
+  - first:
+      213: 3190377272309835032
+    second: Uni Art Ground Tiles_37
+  - first:
+      213: -3203960175006612140
+    second: Uni Art Ground Tiles_38
+  - first:
+      213: -460807714322440894
+    second: Uni Art Ground Tiles_39
+  - first:
+      213: 3746180448367444675
+    second: Uni Art Ground Tiles_40
+  - first:
+      213: -8996637099380361651
+    second: Uni Art Ground Tiles_41
+  - first:
+      213: 3516584076677912144
+    second: Uni Art Ground Tiles_42
+  - first:
+      213: 5197613630187465749
+    second: Uni Art Ground Tiles_43
+  - first:
+      213: 2955130938250783784
+    second: Uni Art Ground Tiles_44
+  - first:
+      213: -3397513147681892911
+    second: Uni Art Ground Tiles_45
+  - first:
+      213: -359362541462991211
+    second: Uni Art Ground Tiles_46
+  - first:
+      213: -5581078603188290628
+    second: Uni Art Ground Tiles_47
+  - first:
+      213: -3680669931594091875
+    second: Uni Art Ground Tiles_48
+  - first:
+      213: -7548092858978240757
+    second: Uni Art Ground Tiles_49
+  - first:
+      213: -4684938199284710978
+    second: Uni Art Ground Tiles_50
+  - first:
+      213: 8998265315213168947
+    second: Uni Art Ground Tiles_51
+  - first:
+      213: 899414272163620461
+    second: Uni Art Ground Tiles_52
+  - first:
+      213: -3022558734889666753
+    second: Uni Art Ground Tiles_53
+  - first:
+      213: -5982641753815640370
+    second: Uni Art Ground Tiles_54
+  - first:
+      213: -1988507670738523176
+    second: Uni Art Ground Tiles_55
+  - first:
+      213: 1341911126554046436
+    second: Uni Art Ground Tiles_56
+  - first:
+      213: -8299020090964678826
+    second: Uni Art Ground Tiles_57
+  - first:
+      213: 3234114791654955101
+    second: Uni Art Ground Tiles_58
+  - first:
+      213: -4166394849769132476
+    second: Uni Art Ground Tiles_59
+  - first:
+      213: 7811752179240706383
+    second: Uni Art Ground Tiles_60
+  - first:
+      213: -7177872288049579157
+    second: Uni Art Ground Tiles_61
+  - first:
+      213: 571710603992122632
+    second: Uni Art Ground Tiles_62
+  - first:
+      213: 3755545022414568577
+    second: Uni Art Ground Tiles_63
+  - first:
+      213: -271850594631025898
+    second: Uni Art Ground Tiles_64
+  - first:
+      213: -3653842286106663733
+    second: Uni Art Ground Tiles_65
+  - first:
+      213: 5129470933654171648
+    second: Uni Art Ground Tiles_66
+  - first:
+      213: 8102990598046210825
+    second: Uni Art Ground Tiles_67
+  - first:
+      213: -2985202911374290507
+    second: Uni Art Ground Tiles_68
+  - first:
+      213: -7574396695418327540
+    second: Uni Art Ground Tiles_69
+  - first:
+      213: 8062131338164203840
+    second: Uni Art Ground Tiles_70
+  - first:
+      213: 8310294562949438132
+    second: Uni Art Ground Tiles_71
+  - first:
+      213: 5315835591564810033
+    second: Uni Art Ground Tiles_72
+  - first:
+      213: -2178733507786212388
+    second: Uni Art Ground Tiles_73
+  - first:
+      213: -1771651481157325164
+    second: Uni Art Ground Tiles_74
+  - first:
+      213: -721233351588537154
+    second: Uni Art Ground Tiles_75
+  - first:
+      213: 3035442605498386059
+    second: Uni Art Ground Tiles_76
+  - first:
+      213: -1534820699510710634
+    second: Uni Art Ground Tiles_77
+  - first:
+      213: 4163843342543539510
+    second: Uni Art Ground Tiles_78
+  - first:
+      213: 744444712804773785
+    second: Uni Art Ground Tiles_79
+  - first:
+      213: 7509796630646644466
+    second: Uni Art Ground Tiles_80
+  - first:
+      213: 7526475945997849063
+    second: Uni Art Ground Tiles_81
+  - first:
+      213: -4151329217889923221
+    second: Uni Art Ground Tiles_82
+  - first:
+      213: -8941547548826020321
+    second: Uni Art Ground Tiles_83
+  - first:
+      213: 4565173133088085132
+    second: Uni Art Ground Tiles_84
+  - first:
+      213: -2286177503684378538
+    second: Uni Art Ground Tiles_85
+  - first:
+      213: -4026534569788483277
+    second: Uni Art Ground Tiles_86
+  - first:
+      213: 5663873605435419905
+    second: Uni Art Ground Tiles_87
+  - first:
+      213: 4242836147065612671
+    second: Uni Art Ground Tiles_88
+  - first:
+      213: -9184259828907638853
+    second: Uni Art Ground Tiles_89
+  - first:
+      213: -105163466241093366
+    second: Uni Art Ground Tiles_90
+  - first:
+      213: -359631638307885860
+    second: Uni Art Ground Tiles_91
+  - first:
+      213: -4273504360500761476
+    second: Uni Art Ground Tiles_92
+  - first:
+      213: 2496451802342133877
+    second: Uni Art Ground Tiles_93
+  - first:
+      213: -2063539819275186940
+    second: Uni Art Ground Tiles_94
+  - first:
+      213: -5965137304580510622
+    second: Uni Art Ground Tiles_95
+  - first:
+      213: 5293537274655926478
+    second: Uni Art Ground Tiles_96
+  - first:
+      213: -2096808422789432459
+    second: Uni Art Ground Tiles_97
+  - first:
+      213: 2760339315460123664
+    second: Uni Art Ground Tiles_98
+  - first:
+      213: -1524029911374406860
+    second: Uni Art Ground Tiles_99
+  - first:
+      213: -2987127615738282974
+    second: Uni Art Ground Tiles_100
+  - first:
+      213: 2912192715607249194
+    second: Uni Art Ground Tiles_101
+  - first:
+      213: -2695135244621064509
+    second: Uni Art Ground Tiles_102
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd7742a283a14450800000000000000
+      internalID: 6071313554135809521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300e377d264c37320800000000000000
+      internalID: 2554601342449737731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206f57d963f529040800000000000000
+      internalID: 4652886053201769986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac93f0ac9bb5f880800000000000000
+      internalID: -8577743633867629404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df5be4d6ed417140800000000000000
+      internalID: 4715635938643632080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecda3df54530940800000000000000
+      internalID: 5261141560248880789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30489aea5b2ae4c0800000000000000
+      internalID: -4257542828242485187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a786f1bac0c6300800000000000000
+      internalID: 246586008704416413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7197b49d9d5305930800000000000000
+      internalID: 4129860068068522263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 186
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6a0749fd5502250800000000000000
+      internalID: 5917824329121310449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4875c552aeed7bfe0800000000000000
+      internalID: -1173224080676202620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b5dcbd3a8399ac0800000000000000
+      internalID: -3847982130192884972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c850bbacbe3b2180800000000000000
+      internalID: -9139142038763054912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507412b773f34310800000000000000
+      internalID: 1388220805574586452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babe61ebac73b3d50800000000000000
+      internalID: 6718024613065321387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e145eaf999648140800000000000000
+      internalID: 4721014419451363809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc3c3263f21219a0800000000000000
+      internalID: -6263923295184470787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a7100f4beb0fa00800000000000000
+      internalID: 788339619119856151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 124
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe82c44f65ccc4a0800000000000000
+      internalID: -6571660674554753290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ac2b4f0aae10eb0800000000000000
+      internalID: -4755261754505508273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b581c5d477919b840800000000000000
+      internalID: 5240247641611966555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f68bba23b748be0800000000000000
+      internalID: -1475919320311107800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72284893c9507fd20800000000000000
+      internalID: 3312122219492311591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d6b4685098ca720800000000000000
+      internalID: 2858810520294354260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2944f2c78fae15040800000000000000
+      internalID: 4634743844497212562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aee8db1fdd4aa510800000000000000
+      internalID: 1561145841477545636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 62
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a976011cb70660800000000000000
+      internalID: 7352051698014726464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0859e3aa27e7560800000000000000
+      internalID: 7313408920416256248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516eacbef9fad1310800000000000000
+      internalID: 1377450162435843605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a85df109c0ee050800000000000000
+      internalID: 5831612380640283258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uni Art Ground Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a8283f027103190800000000000000
+      internalID: -7984856709036078588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
