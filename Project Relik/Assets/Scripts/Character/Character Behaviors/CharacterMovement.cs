@@ -146,10 +146,13 @@ public class CharacterMovement : MonoBehaviour, ICollisionEventTarget
 
     private void UpdateRotation()
     {
-        Vector3 rotation = rb2d.transform.localRotation.eulerAngles;
-        if (faceDirection != DetectFaceDirection())
+        if (rb2d)
         {
-            rb2d.transform.Rotate(0f, 180f, 0f);
+            Vector3 rotation = rb2d.transform.localRotation.eulerAngles;
+            if (faceDirection != DetectFaceDirection())
+            {
+                rb2d.transform.Rotate(0f, 180f, 0f);
+            }
         }
     }
 

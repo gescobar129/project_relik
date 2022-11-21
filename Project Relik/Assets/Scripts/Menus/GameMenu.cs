@@ -8,6 +8,7 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class GameMenu : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI walletIdText = null;
 
+    [SerializeField]
+    private TextMeshProUGUI walletStatus = null;
+
     private Task walletIdServerTask = null;
     private string walletId = null;
 
@@ -31,6 +35,7 @@ public class GameMenu : MonoBehaviour
         if (walletId == "")
         {
             playBtn.gameObject.SetActive(false);
+            walletStatus.gameObject.SetActive(false);
         }
         else
         {
@@ -38,6 +43,7 @@ public class GameMenu : MonoBehaviour
         }
 
         connectWalletBtn.onClick.AddListener(ConnectWallet);
+        playBtn.onClick.AddListener(PlayGame);
     }
 
     // Update is called once per frame
@@ -61,12 +67,17 @@ public class GameMenu : MonoBehaviour
         if (walletId != null)
         {
             playBtn.gameObject.SetActive(true);
+            walletStatus.gameObject.SetActive(false);
             connectWalletBtn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Connect New Wallet";
             walletIdText.text = "Wallet Id: " + walletId;
             PlayerPrefs.SetString("Wallet Id", walletId);
         }
     }
 
+    private void PlayGame()
+    {
+        SceneManager.LoadScene(1);
+    }
     private void WalletServer()
     {
         var listener = new HttpListener();

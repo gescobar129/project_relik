@@ -88,7 +88,7 @@ public class CharacterCombat : MonoBehaviour
                     impactEffect.transform.position = impactTarget.bounds.center;
                 }
 
-                target.TakeDamage(currentAttack.Damage, impactEffect);
+                target.TakeDamage(currentAttack.Damage, impactEffect, gameObject);
             }
         }
     }

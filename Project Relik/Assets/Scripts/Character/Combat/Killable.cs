@@ -22,6 +22,7 @@ public class Killable : MonoBehaviour
     private Animator animator = null;
     private new Rigidbody2D rigidbody = null;
     private List<GameObject> immuneList = null;
+    private bool dead = false;
 
     public Team CombatTeam
     {
@@ -34,6 +35,11 @@ public class Killable : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
         immuneList = new List<GameObject>();
+
+        if (health < 0)
+        {
+            dead = true;
+        }
     }
 
     private void OnDestroy()
@@ -46,10 +52,9 @@ public class Killable : MonoBehaviour
     public void Push(float pushForce, Vector2 pushDirection)
     {
         rigidbody.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
-        Debug.Log(pushDirection * pushForce);
     }
 
-    public void TakeDamage(float damage, VisualEffect impactEffect = null)
+    public void TakeDamage(float damage, VisualEffect impactEffect = null, GameObject attacker = null)
     {
         if (isInvinsible)
         {
@@ -65,7 +70,15 @@ public class Killable : MonoBehaviour
 
         if (health <= 0)
         {
-            animator.SetTrigger("Death");
+            if (!dead)
+            {
+                animator.SetTrigger("Death");
+                var eventArgs = new ObjectKilledGlobalEvent.EventArgs();
+                eventArgs.killed = this.gameObject;
+                eventArgs.killer = attacker;
+                GlobalEventSystem.GetInstance().TriggerEvent(ObjectKilledGlobalEvent.GetInstance(), eventArgs);
+                dead = true;
+            }
         }
         else if(!superArmorActive)
         {
